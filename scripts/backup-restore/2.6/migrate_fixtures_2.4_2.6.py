@@ -179,6 +179,11 @@ for obj in default_obj:
     except:
         pass
 
+    try:
+        obj['fields'].pop("service", None)
+    except:
+        pass
+
     obj['fields']['is_mosaic'] = False
     obj['fields']['has_time'] = False
     obj['fields']['has_elevation'] = False
