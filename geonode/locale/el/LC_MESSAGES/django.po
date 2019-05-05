@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-03 23:36+0300\n"
-"PO-Revision-Date: 2019-05-05 21:07+0300\n"
+"PO-Revision-Date: 2019-05-05 22:35+0300\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/"
 "el/)\n"
@@ -713,7 +713,7 @@ msgstr "Οι κανόνες ασφαλείας δεν έχουν συγχρον�
 #: geonode/base/templates/base/_resourcebase_snippet.html:58
 #: geonode/layers/templates/layers/layer_detail.html:688
 msgid "Sync permissions immediately"
-msgstr "Συγχρονίστε άμεσα τα δικαιώματα"
+msgstr "Άμεσος συγχρονισμός δικαιωμάτων"
 
 #: geonode/base/templates/base/_resourcebase_snippet.html:60
 msgid "PENDING APPROVAL"
@@ -835,7 +835,7 @@ msgstr "Βιβλιοθήκη Εφαρμογής GeoNode"
 
 #: geonode/client/templates/leaflet/layers/layer_leaflet_map.html:340
 msgid "Upload QML Style"
-msgstr "Ανεβάστε Στυλ QML"
+msgstr "Ανέβασμα Στυλ QML"
 
 #: geonode/client/templates/leaflet/maps/map_base.html:4
 #: geonode/client/templates/leaflet/maps/map_list.html:10
@@ -871,7 +871,7 @@ msgstr "Ενημέρωση"
 #: geonode/maps/templates/maps/map_detail.html:231
 #: geonode/maps/templates/maps/map_list.html:9
 msgid "Create a New Map"
-msgstr "Δημιουργήστε ένα Νέο Χάρτη"
+msgstr "Δημιουργία Νέου Χάρτη"
 
 #: geonode/client/templates/leaflet/maps/map_view.html:55
 msgid "Available layers"
@@ -961,7 +961,7 @@ msgstr "Λίστα Επιπέδων"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:381
 msgid "Upload a Layer"
-msgstr "Ανεβάστε Επίπεδο"
+msgstr "Ανέβασμα Επιπέδου"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:383
 msgid "Click here to upload a layer."
@@ -1043,7 +1043,7 @@ msgstr "Εξερεύνηση Επιφανειών"
 
 #: geonode/contrib/createlayer/templates/createlayer/layer_create.html:20
 msgid "Create an empty layer"
-msgstr "Δημιουργήστε ένα κενό επίπεδο"
+msgstr "Δημιουργία κενού επιπέδου"
 
 #: geonode/contrib/createlayer/templates/createlayer/layer_create.html:38
 msgid "Add Attribute"
@@ -1053,7 +1053,7 @@ msgstr "Προσθήκη Ιδιότητας"
 #: geonode/groups/templates/groups/group_create.html:26
 #: geonode/services/templates/services/service_register.html:18
 msgid "Create"
-msgstr "Δημιουργήστε"
+msgstr "Δημιουργία"
 
 #: geonode/contrib/createlayer/templates/createlayer/layer_create.html:50
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:214
@@ -1176,7 +1176,7 @@ msgstr "Καλώς ήρθατε"
 msgid ""
 "GeoNode is an open source platform for sharing geospatial data and maps."
 msgstr ""
-"GeoNode είναι ένα open source πλατφόρμα για την ανταλλαγή γεωχωρικών "
+"Το GeoNode είναι μια πλατφόρμα ανοιχτού κώδικα για την ανταλλαγή γεωχωρικών "
 "δεδομένων και χαρτών."
 
 #: geonode/contrib/geosites/site_template/templates/site_index.html:14
@@ -1236,7 +1236,7 @@ msgstr "Προσθήκη επιπέδων"
 #: geonode/contrib/geosites/templates/master_index.html:66
 #: geonode/templates/index.html:264
 msgid "Explore layers"
-msgstr "Αναζήτηση επιπέδων"
+msgstr "Εξερεύνηση επιπέδων"
 
 #: geonode/contrib/geosites/templates/master_index.html:71
 #: geonode/contrib/monitoring/models.py:170
@@ -1255,9 +1255,9 @@ msgid ""
 "which can be saved, downloaded, shared publicly or restricted to specify "
 "users only."
 msgstr ""
-"Τα δεδομένα είναι διαθέσιμα για περιήγηση, συγκέντρωση, μεταφόρτωση, "
-"δημιουργία χαρτών και διαμοιρασμό δημοσίως ή με περιορισμό μόνο σε "
-"συγκεκριμένους χρήστες."
+"Τα δεδομένα είναι διαθέσιμα για περιήγηση, θέαση, μεταφόρτωση, δημιουργία "
+"χαρτών και διαμοιρασμό δημοσίως ή με περιορισμό μόνο σε συγκεκριμένους "
+"χρήστες."
 
 #: geonode/contrib/geosites/templates/master_index.html:74
 #: geonode/templates/index.html:272
@@ -1267,7 +1267,7 @@ msgstr "Δημιουργήστε χάρτες"
 #: geonode/contrib/geosites/templates/master_index.html:76
 #: geonode/templates/index.html:274
 msgid "Explore maps"
-msgstr "Αναζήτηση χαρτών"
+msgstr "Εξερεύνηση χαρτών"
 
 #: geonode/contrib/geosites/templates/master_index.html:81
 #: geonode/contrib/monitoring/models.py:171
@@ -1285,19 +1285,18 @@ msgid ""
 "As for the layers and maps GeoNode allows to publish tabular and text data, "
 "manage theirs metadata and associated documents."
 msgstr ""
-"Σχετικά με τα επίπεδα και τους χάρτες, το GeoNode επιτρέπει τη δημοσίευση "
-"δεδομένων σε πίνακες και κείμενο, τη διαχείριση των μεταδεδομένων τους και "
-"των συσχετισμένων εγγράφων τους."
+"Το GeoNode επιτρέπει τη δημοσίευση δεδομένων σε πίνακες και κείμενο, τη "
+"διαχείριση των μεταδεδομένων τους και των συσχετισμένων εγγράφων τους."
 
 #: geonode/contrib/geosites/templates/master_index.html:84
 #: geonode/templates/index.html:282
 msgid "Add documents"
-msgstr "Προσθήκη κειμένων"
+msgstr "Προσθήκη εγγράφων"
 
 #: geonode/contrib/geosites/templates/master_index.html:86
 #: geonode/templates/index.html:284
 msgid "Explore documents"
-msgstr "Εξερευνήστε έγγραφα"
+msgstr "Εξερεύνηση έγγραφα"
 
 #: geonode/contrib/geosites/templates/master_index.html:91
 #: geonode/templates/index.html:289
@@ -1645,69 +1644,67 @@ msgid "All"
 msgstr "Όλα"
 
 #: geonode/contrib/monitoring/models.py:356
-#, fuzzy
-#| msgid "List of resources using this document:"
 msgid "List of resources affected"
-msgstr "Λίστα των πόρων που χρησιμοποιούν αυτό το έγγραφο:"
+msgstr "Λίστα των πόρων που επηρεάζονται"
 
 #: geonode/contrib/monitoring/models.py:363
 msgid "Response processing time in ms"
-msgstr ""
+msgstr "Χρόνος απόκρισης σε δευτερόλεπτα"
 
 #: geonode/contrib/monitoring/models.py:839
 msgid "1 minute"
-msgstr ""
+msgstr "1 λεπτό"
 
 #: geonode/contrib/monitoring/models.py:840
 msgid "5 minutes"
-msgstr ""
+msgstr "5 λεπτά"
 
 #: geonode/contrib/monitoring/models.py:841
 msgid "10 minutes"
-msgstr ""
+msgstr "10 λεπτά"
 
 #: geonode/contrib/monitoring/models.py:842
 msgid "30 minutes"
-msgstr ""
+msgstr "30 λεπτά"
 
 #: geonode/contrib/monitoring/models.py:843
 msgid "1 hour"
-msgstr ""
+msgstr "1 ώρα"
 
 #: geonode/contrib/monitoring/models.py:850
 msgid "Warning"
-msgstr ""
+msgstr "Προειδοποίηση"
 
 #: geonode/contrib/monitoring/models.py:851
 #: geonode/templates/metadata_base.html:128
 #: geonode/templates/metadata_base.html:131
 #: geonode/templates/socialaccount/authentication_error.html:11
 msgid "Error"
-msgstr ""
+msgstr "Σφάλμα"
 
 #: geonode/contrib/monitoring/models.py:852
 msgid "Fatal"
-msgstr ""
+msgstr "Μοιραίο"
 
 #: geonode/contrib/monitoring/models.py:866
 msgid "Expected min/max values for user configuration"
-msgstr ""
+msgstr "Αναμενόμενες τιμές για ρύθμιση χρήστη (ελάχιστο/μέγιστο)"
 
 #: geonode/contrib/monitoring/models.py:874
 msgid "Marker of last delivery"
-msgstr ""
+msgstr "Δείκτης τελευταίας παράδοσης"
 
 #: geonode/contrib/monitoring/models.py:877
 msgid "Minimum time between subsequent notifications"
-msgstr ""
+msgstr "Ελάχιστος χρόνος μεταξύ συνεχόμενων ειδοποιήσεων"
 
 #: geonode/contrib/monitoring/models.py:882
 msgid "How severe would be error from this notification"
-msgstr ""
+msgstr "Πόσο σοβαρό θα ήταν σφάλμα από αυτήν την ειδοποίηση"
 
 #: geonode/contrib/monitoring/models.py:887
 msgid "Is it active"
-msgstr ""
+msgstr "Είναι ενεργό"
 
 #: geonode/contrib/monitoring/models.py:894
 msgid "{}: {}"
@@ -1715,50 +1712,50 @@ msgstr ""
 
 #: geonode/contrib/monitoring/models.py:1161
 msgid "Value must be above"
-msgstr ""
+msgstr "Η τιμή πρέπει να είναι άνω από"
 
 #: geonode/contrib/monitoring/models.py:1162
 msgid "Value must be below"
-msgstr ""
+msgstr "Η τιμή πρέπει να είναι κάτω από"
 
 #: geonode/contrib/monitoring/models.py:1163
 msgid "Last update must not be older than"
-msgstr ""
+msgstr "Η τελευταία ενημέρωση πρέπει να μην είναι παλιότερη από"
 
 #: geonode/contrib/monitoring/models.py:1312
 msgid "Max timeout for given metric before error should be raised"
 msgstr ""
+"Πρέπει να αυξηθεί το μέγιστο χρονικό όριο για τη δεδομένη μέτρηση πριν από "
+"το σφάλμα"
 
 #: geonode/contrib/monitoring/templates/monitoring/index.html:5
 #: geonode/contrib/monitoring/templates/monitoring/non_superuser.html:4
 #: geonode/templates/base.html:259
 msgid "Monitoring"
-msgstr ""
+msgstr "Παρακολούθηση"
 
 #: geonode/contrib/monitoring/templates/monitoring/non_superuser.html:10
 msgid "Only superusers can monitor performance"
-msgstr ""
+msgstr "Μόνο διαχειριστές μπορούν να παρακολουθούν την απόδοση"
 
 #: geonode/contrib/monitoring/templates/pinax/notifications/monitoring_alert/full.txt:3
 msgid "Hi,"
-msgstr ""
+msgstr "Γεια σας,"
 
 #: geonode/contrib/monitoring/templates/pinax/notifications/monitoring_alert/full.txt:5
 #: geonode/contrib/monitoring/templates/pinax/notifications/monitoring_alert/short.txt:3
 msgid "Monitoring on"
-msgstr ""
+msgstr "Παρακολούθηση στο"
 
 #: geonode/contrib/monitoring/templates/pinax/notifications/monitoring_alert/full.txt:5
 #: geonode/contrib/monitoring/templates/pinax/notifications/monitoring_alert/short.txt:3
-#, fuzzy
-#| msgid "The following groups:"
 msgid "has detected following problems :"
-msgstr "Οι ακόλουθες ομάδες:"
+msgstr "εντοπίστηκαν τα παρακάτω προβλήματα:"
 
 #: geonode/contrib/monitoring/templates/pinax/notifications/monitoring_alert/full.txt:9
 #: geonode/contrib/monitoring/templates/pinax/notifications/monitoring_alert/short.txt:6
 msgid "spotted"
-msgstr ""
+msgstr "εντοπίστηκε"
 
 #: geonode/contrib/monitoring/templates/pinax/notifications/monitoring_alert/full.txt:9
 #: geonode/contrib/monitoring/templates/pinax/notifications/monitoring_alert/full.txt:10
@@ -1771,7 +1768,7 @@ msgstr "πρίν"
 #: geonode/contrib/monitoring/templates/pinax/notifications/monitoring_alert/full.txt:10
 #: geonode/contrib/monitoring/templates/pinax/notifications/monitoring_alert/short.txt:7
 msgid "emerged"
-msgstr ""
+msgstr "προέκυψε"
 
 #: geonode/contrib/worldmap/gazetteer/flexidates.py:19
 #, python-format
@@ -1781,10 +1778,15 @@ msgid ""
 "optional), DD = day of month (1-31, optional).For BC dates insert a minus "
 "sign before year (-1000-01-01) or append with BC (1000-01-01 BC)."
 msgstr ""
+"Η τιμή '%s' δεν έχει αποδεκτή τιμή ημερομηνίας. Αποδεκτό πρότυπο είναι το "
+"YYYY-MM-DD όπου YYYY = έτος (τουλάχιστο 4 ψηφία, πχ 0001 για το έτος 1), MM "
+"= μήνας (1-12, προαιρετικό), DD = ημέρα του μήνα (1-31, προαιρετικό). Για "
+"ημερομηνίες Π.Χ. χρησιμοποιείται το πρόθεμα μείον (-1000-01-01) ή το επίθεμα "
+"BC  (1000-01-01 BC)."
 
 #: geonode/contrib/worldmap/gazetteer/flexidates.py:27
 msgid "Date BC/AD (without time)"
-msgstr ""
+msgstr "Ημερομηνία BC/AD (χωρίς χρόνο)"
 
 #: geonode/contrib/worldmap/gazetteer/flexidates.py:126
 msgid ""
@@ -1793,16 +1795,18 @@ msgid ""
 "optional). For BC dates insert a minus sign before year (-1000-01-01) or "
 "append with BC (1000-01-01 BC)."
 msgstr ""
+"Μη αποδεκτή τιμή ημερομηνίας. Δοκιμάστε το πρότυπο YYYY-MM-DD όπου YYYY = "
+"έτος (υποχρεωτικό), MM = μήνας (1-12, προαιρετικό), DD = ημέρα του μήνα "
+"(1-31, προαιρετικό). Για ημερομηνίες Π.Χ. χρησιμοποιείται το πρόθεμα μείον "
+"(-1000-01-01) ή το επίθεμα BC  (1000-01-01 BC)."
 
 #: geonode/contrib/worldmap/gazetteer/models.py:15
 msgid "Layer Name"
-msgstr "Layer Όνομα"
+msgstr "Όνομα Επιπέδου"
 
 #: geonode/contrib/worldmap/gazetteer/models.py:16
-#, fuzzy
-#| msgid "Attribute"
 msgid "Layer Attribute"
-msgstr "Ιδιότητα"
+msgstr "Ιδιότητα Επιπέδου"
 
 #: geonode/contrib/worldmap/gazetteer/models.py:17
 #, fuzzy
@@ -1824,21 +1828,19 @@ msgstr "όνομα στυλ"
 
 #: geonode/contrib/worldmap/gazetteer/models.py:22
 msgid "Start Date"
-msgstr ""
+msgstr "Ημερομηνία Έναρξης"
 
 #: geonode/contrib/worldmap/gazetteer/models.py:23
-#, fuzzy
-#| msgid "Date"
 msgid "End Date"
-msgstr "Ημερομηνία"
+msgstr "Ημερομηνία Λήξης"
 
 #: geonode/contrib/worldmap/gazetteer/models.py:24
 msgid "Julian Date Start"
-msgstr ""
+msgstr "Ιουλιανή Ημερομηνία Έναρξης"
 
 #: geonode/contrib/worldmap/gazetteer/models.py:25
 msgid "Julian Date End"
-msgstr ""
+msgstr "Ιουλιανή Ημερομηνία Λήξης"
 
 #: geonode/contrib/worldmap/gazetteer/models.py:26
 #, fuzzy
@@ -1847,14 +1849,10 @@ msgid "Project"
 msgstr "προβολή"
 
 #: geonode/contrib/worldmap/gazetteer/models.py:27
-#, fuzzy
-#| msgid "Retry"
 msgid "Geometry"
-msgstr "Επανάληψη"
+msgstr "Γεωμετρία"
 
 #: geonode/contrib/worldmap/gazetteer/models.py:28
-#, fuzzy
-#| msgid "Username"
 msgid "User Name"
 msgstr "Όνομα Χρήστη"
 
@@ -1865,31 +1863,36 @@ msgid ""
 "do not choose at least one depict-date field, the system will use the depict-"
 "date in the layer metadata (if any)."
 msgstr ""
+"Με την προσθήκη των ιδιοτήτων των επιπέδων στο γεωγραφικό λεξικό, θα μπορούν "
+"να αναζητηθούν και να προβάλλονται από οποιονδήποτε, ανεξάρτητα από τα "
+"δικαιώματα ασφαλείας του επιπέδου. Αν δεν επιλέξετε τουλάχιστον ένα πεδίο "
+"απεικόνισης-ημερομηνίας, το σύστημα θα χρησιμοποιήσει την απεικόνιση-"
+"ημερομηνία από τα μεταδεδομένα επιπέδου (εάν υπάρχουν)."
 
 #: geonode/contrib/worldmap/gazetteer/templates/gazetteer/edit_layer_gazetteer.html:22
 msgid "Select fields for this layer to be part of the gazetteer"
-msgstr ""
+msgstr "Επιλέξτε πεδία του επιπέδου για προσθήκη στο γεωγραφικό λεξικό"
 
 #: geonode/contrib/worldmap/gazetteer/templates/gazetteer/edit_layer_gazetteer.html:34
 msgid "Optional Parameters"
-msgstr ""
+msgstr "Προαιρετικές Παράμετροι"
 
 #: geonode/contrib/worldmap/gazetteer/templates/gazetteer/edit_layer_gazetteer.html:37
 msgid "Custom Gazetteer Name"
-msgstr ""
+msgstr "Όνομα Γεωγραφικού Λεξικού"
 
 #: geonode/contrib/worldmap/gazetteer/templates/gazetteer/edit_layer_gazetteer.html:43
 msgid "Start depict-date field"
-msgstr ""
+msgstr "Πεδίο απεικόνισης-ημερομηνίας έναρξης"
 
 #: geonode/contrib/worldmap/gazetteer/templates/gazetteer/edit_layer_gazetteer.html:53
 #: geonode/contrib/worldmap/gazetteer/templates/gazetteer/edit_layer_gazetteer.html:69
 msgid "Date Format (Examples: 'YYYY', 'MM/DD/YYYY', 'YYYY/MM/DD')"
-msgstr ""
+msgstr "Πρότυπο Ημερομηνίας (πχ. 'YYYY', 'MM/DD/YYYY', 'YYYY/MM/DD')"
 
 #: geonode/contrib/worldmap/gazetteer/templates/gazetteer/edit_layer_gazetteer.html:59
 msgid "End depict-date field"
-msgstr ""
+msgstr "Πεδίο απεικόνισης-ημερομηνίας λήξης"
 
 #: geonode/contrib/worldmap/gazetteer/templates/gazetteer/edit_layer_gazetteer.html:74
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/layers/edit_searchable_fields.html:34
@@ -1901,23 +1904,19 @@ msgstr ""
 #: geonode/layers/templates/layers/layer_style_upload.html:25
 #: geonode/templates/metadata_detail.html:28
 msgid "Return to Layer"
-msgstr ""
+msgstr "Επιστροφή στο Επίπεδο"
 
 #: geonode/contrib/worldmap/gazetteer/templates/gazetteer/edit_layer_gazetteer.html:75
-#, fuzzy
-#| msgid "Update Group"
 msgid "Update Gazetteer"
-msgstr "Ομάδα Ενημέρωση"
+msgstr "Ενημέρωση Γεωγραφικού Λεξικού"
 
 #: geonode/contrib/worldmap/mapnotes/models.py:13
-#, fuzzy
-#| msgid "Contact:"
 msgid "Content"
-msgstr "Επικοινωνία"
+msgstr "Περιεχόμενο"
 
 #: geonode/contrib/worldmap/mapnotes/templates/mapnotes/annotation.html:33
 msgid "Author"
-msgstr ""
+msgstr "Συντάκτης"
 
 #: geonode/contrib/worldmap/mapnotes/templates/mapnotes/annotation.html:36
 #: geonode/groups/templates/groups/activity.html:29
@@ -1947,19 +1946,17 @@ msgid "Post a comment"
 msgstr "ενημερωμένο ένα σχόλιο"
 
 #: geonode/contrib/worldmap/mapnotes/templates/mapnotes/annotation.html:68
-#, fuzzy
-#| msgid "Log in to add a comment"
 msgid "Login to add a comment"
 msgstr "Συνδεθείτε για να προσθέσετε ένα σχόλιο"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:34
 #: geonode/contrib/worldmap/wm_extra/models.py:40
 msgid "In Gazetteer?"
-msgstr ""
+msgstr "Είναι στο Γεωγραφικό Λεξικό;"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:35
 msgid "Gazetteer Project"
-msgstr ""
+msgstr "Έργο Γεωγραφικού Λεξικού"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:36
 #, fuzzy
@@ -1971,63 +1968,53 @@ msgstr "Αναζήτηση"
 #: geonode/layers/templates/upload/layer_upload_time.html:133
 #: geonode/layers/templates/upload/layer_upload_time.html:171
 msgid "Date Format"
-msgstr "Μορφή ημερομηνίας"
+msgstr "Πρότυπο Ημερομηνίας"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:41
-#, fuzzy
-#| msgid "Getting Started"
 msgid "Gazetteer Start Date"
-msgstr "Ξεκινώντας"
+msgstr "Ημερομηνία Έναρξης Γεωγραφικού Λεξικού"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:42
 msgid "Gazetteer End Date"
-msgstr ""
+msgstr "Ημερομηνία Λήξης Γεωγραφικού Λεξικού"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:95
 msgid "Site Content"
-msgstr ""
+msgstr "Περιεχόμενο Ιστοχώρου"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:96
 msgid "Layer Category Parameters"
-msgstr ""
+msgstr "Παράμετροι Κατηγοριών Επιπέδου"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:101
 #: geonode/contrib/worldmap/wm_extra/models.py:111
 msgid "Visits"
-msgstr ""
+msgstr "Επισκέψεις"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:102
 #: geonode/contrib/worldmap/wm_extra/models.py:112
 msgid "Unique Visitors"
-msgstr ""
+msgstr "Μοναδικοί Επισκέπτες"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:113
-#, fuzzy
-#| msgid "Download"
 msgid "Downloads"
-msgstr "Λήψη"
+msgstr "Μεταφορτώσεις"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:124
-#, fuzzy
-#| msgid "Web Map Service"
 msgid "Describe Map Service"
-msgstr "Web Map Service"
+msgstr "Περιγραφή Υπηρεσίας Χάρτη"
 
 #: geonode/contrib/worldmap/wm_extra/models.py:125
-#, fuzzy
-#| msgid "Service URL"
 msgid "Map service URL"
-msgstr "URL Υπηρεσία"
+msgstr "URL Υπηρεσίας Χάρτη"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/endpoint_add.html:6
 msgid "Suggests an Endpoint"
-msgstr ""
+msgstr "Προτεινόμενη διεύθυνση υπηρεσίας"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/endpoint_add.html:13
-#, fuzzy
-#| msgid "Web Map Service"
 msgid "Submit Map Service URL"
-msgstr "Web Map Service"
+msgstr "Υποβολή URL Υπηρεσίας Χάρτη"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/endpoint_add.html:16
 msgid ""
@@ -2036,12 +2023,19 @@ msgid ""
 "organization hosting the map service, the source of the data, and the year "
 "or year range the data represents."
 msgstr ""
+"Παρακαλώ περιγράψτε τον τύπο της αντιστοίχησης στην υπηρεσία χαρτών (π.χ. "
+"δρόμοι, χαρακτηριστικά νερού, ιστορικοί χάρτες, δορυφορικές εικόνες κ.λ.π.), "
+"το όνομα του οργανισμού που φιλοξενεί την υπηρεσία χαρτών, την πηγή των "
+"δεδομένων και το έτος ή το διάστημα που αντιστοιχεί στα δεδομένα."
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/endpoint_add.html:17
 msgid ""
 "Service harvesting and loading to WorldMap is currently a manual process so "
 "it may take some time for your map service layers to appear in search."
 msgstr ""
+"Η συγκομιδή και φόρτωση υπηρεσιών στο WorldMap είναι αυτή τη στιγμή μια "
+"χειρωνακτική διαδικασία, οπότε μπορεί να χρειαστεί λίγος χρόνος για να "
+"εμφανιστούν τα αναζητούμενα επίπεδα υπηρεσιών χάρτη."
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/endpoint_add.html:18
 msgid ""
@@ -2049,41 +2043,42 @@ msgid ""
 "service endpoint types. If you are not sure what you have, feel free to "
 "submit it and we will attempt to load it."
 msgstr ""
+"Το σύστημα υποστηρίζει επί του παρόντος υπηρεσίες OGC WMS και CSW, καθώς και "
+"τις υπηρεσίες Esri Image and Map. Αν δεν είστε σίγουροι για την υπηρεσία που "
+"διαθέτετε, μπορείτε να την υποβάλετε και θα προσπαθήσουμε να τη φορτώσουμε."
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/endpoint_add.html:19
 msgid ""
 "Write us at worldmap@harvard.edu if you have any questions.  Thank you for "
 "your contribution."
 msgstr ""
+"Επικοινωνήστε μαζί μας στο worldmap@harvard.edu αν έχετε ερωτήσεις. Σας "
+"ευχαριστούμε για τη συμβολή σας."
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/endpoint_add.html:23
-#, fuzzy
-#| msgid "Service URL"
 msgid "Submit map service URL"
-msgstr "URL Υπηρεσία"
+msgstr "Υποβολή URL Υπηρεσίας Χάρτη"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/endpoint_added.html:6
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/endpoint_added.html:13
 msgid "Endpoint Suggested"
-msgstr ""
+msgstr "Πρόταση Διεύθυνσης Υπηρεσίας"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/endpoint_added.html:16
 msgid "Thanks"
-msgstr ""
+msgstr "Ευχαριστούμε"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/endpoint_added.html:16
 msgid "for suggesting the endpoint"
-msgstr ""
+msgstr "για την πρόταση διεύθυνσης υπηρεσίας"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/layers/edit_searchable_fields.html:21
 msgid "Select the fields for this layer which are searchable in maps."
-msgstr ""
+msgstr "Επιλέξτε τα πεδία του επιπέδου που θα είναι αναζητήσιμα στους χάρτες"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/layers/edit_searchable_fields.html:35
-#, fuzzy
-#| msgid "Update profile"
 msgid "Update Fields"
-msgstr "Ενημέρωση προφίλ"
+msgstr "Ενημέρωση Πεδίων"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/fullscreen.html:7
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/mobile.html:30
@@ -2093,7 +2088,7 @@ msgstr ""
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:60
 #: geonode/maps/templates/maps/map_detail.html:63
 msgid "Map layers WMS GetCapabilities document"
-msgstr ""
+msgstr "Έγγραφο δυνατοτήτων υπηρεσίας WMS"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:79
 #: geonode/maps/templates/maps/map_detail.html:82
@@ -2119,13 +2114,13 @@ msgstr "Λήψη Χάρτη"
 #: geonode/layers/templates/layers/layer_detail.html:418
 #: geonode/maps/templates/maps/map_detail.html:106
 msgid "Metadata Detail"
-msgstr ""
+msgstr "Λεπτομέρειες Μεταδεδομένων"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:131
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:138
 #: geonode/maps/templates/maps/map_edit.html:7
 msgid "Edit Map"
-msgstr "Επεξεργασία Χάρτης"
+msgstr "Επεξεργασία Χάρτη"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:145
 #: geonode/documents/templates/documents/document_detail.html:135
@@ -2136,28 +2131,28 @@ msgstr "Επεξεργασία Χάρτης"
 #: geonode/maps/templates/maps/map_metadata.html:20
 #: geonode/templates/metadata_detail.html:32
 msgid "Metadata"
-msgstr ""
+msgstr "Μεταδεδομένα"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:146
 #: geonode/documents/templates/documents/document_detail.html:136
 #: geonode/layers/templates/layers/layer_detail.html:439
 #: geonode/maps/templates/maps/map_detail.html:149
 msgid "Wizard"
-msgstr ""
+msgstr "Βοηθός"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:147
 #: geonode/documents/templates/documents/document_detail.html:137
 #: geonode/layers/templates/layers/layer_detail.html:440
 #: geonode/maps/templates/maps/map_detail.html:150
 msgid "Advanced Edit"
-msgstr ""
+msgstr "Προηγμένη Επεξεργασία"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:154
 #: geonode/documents/templates/documents/document_detail.html:144
 #: geonode/layers/templates/layers/layer_detail.html:477
 #: geonode/maps/templates/maps/map_detail.html:157
 msgid "Set"
-msgstr ""
+msgstr "Ορισμός"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:161
 #: geonode/documents/templates/layouts/doc_panels.html:8
@@ -2170,7 +2165,7 @@ msgstr ""
 #: geonode/maps/templates/layouts/map_panels.html:74
 #: geonode/maps/templates/maps/map_detail.html:164
 msgid "Edit"
-msgstr ""
+msgstr "Επεξεργασία"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:162
 #: geonode/documents/templates/documents/document_detail.html:155
@@ -2187,12 +2182,12 @@ msgstr "Κατάργηση"
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:185
 #: geonode/maps/templates/maps/map_detail.html:192
 msgid "Map Layers"
-msgstr "Επιφάνειες Χάρτη"
+msgstr "Επίπεδα Χάρτη"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:186
 #: geonode/maps/templates/maps/map_detail.html:193
 msgid "This map uses the following layers:"
-msgstr "Αυτός ο χάρτης χρησιμοποιεί τις ακόλουθες επιφάνειες:"
+msgstr "Αυτός ο χάρτης χρησιμοποιεί τα ακόλουθα επίπεδα:"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:202
 #: geonode/maps/templates/maps/map_detail.html:209
@@ -2208,7 +2203,7 @@ msgstr "Κατάλογος των εγγράφων που σχετίζονται
 #: geonode/maps/templates/maps/map_detail.html:222
 msgid "Specify which users can view or modify this map"
 msgstr ""
-"Καθορίστε ποιοί χρήστες μπορούν να δουν ή να τροποποιήσουν αυτό το χάρτη"
+"Καθορισμός χρηστών που μπορούν να δουν ή να τροποποιήσουν αυτό το χάρτη"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:216
 #: geonode/maps/templates/maps/map_detail.html:223
@@ -2218,7 +2213,7 @@ msgstr "Αλλαγή Δικαιωμάτων σε αυτόν τον Χάρτη"
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:222
 #: geonode/maps/templates/maps/map_detail.html:229
 msgid "Copy this map"
-msgstr "Αντιγράψτε αυτό το χάρτη"
+msgstr "Αντιγραφή χάρτη"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:223
 #: geonode/maps/templates/maps/map_detail.html:230
@@ -2233,7 +2228,7 @@ msgstr "Χάρτης WMS"
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:232
 #: geonode/maps/templates/maps/map_detail.html:258
 msgid "WMS layer group for local map layers"
-msgstr "Ομάδα στρώμα WMS για την τοπική στρώματα χάρτη"
+msgstr "Ομάδα επιπέδων WMS για το τοπικό επίπεδο χάρτη"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:233
 #: geonode/maps/templates/maps/map_detail.html:259
@@ -2245,17 +2240,17 @@ msgstr "επί"
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:233
 #: geonode/maps/templates/maps/map_detail.html:259
 msgid "local OWS"
-msgstr "τοπική OWS"
+msgstr "τοπική υπηρεσία OWS"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:236
 #: geonode/maps/templates/maps/map_detail.html:262
 msgid "Publish local map layers as WMS layer group"
-msgstr "Δημοσιεύστε τοπικές στρώματα χάρτη ως ομάδα στρώμα WMS"
+msgstr "Δημοσίευση τοπικών επιπέδων χάρτη ως ομάδα επιπέδων WMS"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:237
 #: geonode/maps/templates/maps/map_detail.html:263
 msgid "Publish Map WMS"
-msgstr "Δημοσίευση Χάρτης WMS"
+msgstr "Δημοσίευση Χάρτη WMS"
 
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:257
 #: geonode/maps/templates/maps/map_detail.html:283
