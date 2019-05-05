@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-03 23:36+0300\n"
-"PO-Revision-Date: 2016-08-23 13:57+0000\n"
+"PO-Revision-Date: 2019-05-05 21:07+0300\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/"
 "el/)\n"
@@ -37,14 +37,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: geonode/base/__init__.py:27
 msgid "Request to download a resource"
-msgstr ""
+msgstr "Αίτημα για λήψη ενός πόρου"
 
 #: geonode/base/__init__.py:28
 msgid "A request for downloading a resource was sent"
-msgstr ""
+msgstr "Έχει σταλεί αίτημα για λήψη ενός πόρου"
 
 #: geonode/base/enumerations.py:27
 msgid "series"
@@ -84,7 +85,7 @@ msgstr "συνεδρία τομέα"
 
 #: geonode/base/enumerations.py:36
 msgid "dataset"
-msgstr "συλλογή δεδομένων"
+msgstr "σύνολο δεδομένων"
 
 #: geonode/base/enumerations.py:37
 msgid "service interfaces"
@@ -181,11 +182,11 @@ msgstr "Απαιτείται Κατηγορία."
 
 #: geonode/base/forms.py:288
 msgid "Keywords from Thesauri"
-msgstr ""
+msgstr "Λέξεις Κλειδιά από Λεξικό"
 
 #: geonode/base/forms.py:290
 msgid "List of keywords from Thesauri"
-msgstr ""
+msgstr "Λίστα λέξεων κλειδιών από Λεξικό"
 
 #: geonode/base/forms.py:321 geonode/base/models.py:537
 #: geonode/base/templates/base/_resourcebase_contact_snippet.html:10
@@ -207,15 +208,15 @@ msgstr "Ημερομηνία"
 
 #: geonode/base/forms.py:334 geonode/base/models.py:640
 msgid "temporal extent start"
-msgstr "χρονική διάρκεια έναρξη"
+msgstr "χρονική διάρκεια, έναρξη"
 
 #: geonode/base/forms.py:341 geonode/base/models.py:645
 msgid "temporal extent end"
-msgstr "χρονική διάρκεια τέλος"
+msgstr "χρονική διάρκεια, τέλος"
 
 #: geonode/base/forms.py:349 geonode/base/forms.py:357
 msgid "Person outside GeoNode (fill form)"
-msgstr ""
+msgstr "Άτομα εκτός GeoNode (συμπληρώστε λίστα)"
 
 #: geonode/base/forms.py:350
 #: geonode/base/templates/base/_resourcebase_contact_snippet.html:14
@@ -242,21 +243,19 @@ msgstr "Σημείο Επικοινωνίας"
 #: geonode/layers/templates/layers/layer_metadata_advanced.html:40
 #: geonode/templates/metadata_detail.html:338
 msgid "Metadata Author"
-msgstr "Μεταδεδομένα Συγγραφέας"
+msgstr "Συγγραφέας Μεταδεδομένων"
 
 #: geonode/base/forms.py:365
-#, fuzzy
-#| msgid "Keywords"
 msgid "Free-text Keywords"
-msgstr "Λέξεις-κλειδιά"
+msgstr "Λέξεις-κλειδιά (ελεύθερο κείμενο)"
 
 #: geonode/base/forms.py:367
-#, fuzzy
-#| msgid "A space or comma-separated list of keywords"
 msgid ""
 "A space or comma-separated list of keywords. Use the widget to select from "
 "Hierarchical tree."
-msgstr "Μια λίστα λέξεων κλειδιών χωρισμένες με κόμμα ή κενό "
+msgstr ""
+"Μια λίστα λέξεων κλειδιών χωρισμένες με κόμμα ή κενό. Χρησιμοποιήστε το "
+"εργαλείο για επιλογή από ιεραρχικό δέντρο."
 
 #: geonode/base/forms.py:379
 #: geonode/base/templates/base/_resourcebase_info_panel.html:72
@@ -268,17 +267,19 @@ msgstr "Περιοχές"
 
 #: geonode/base/management/commands/updategeoip.py:53
 msgid "Write result to file, default GEOIP_PATH: {}"
-msgstr ""
+msgstr "Αποθήκευση αποτελέσματος σε αρχείο, προεπιλογή GEOIP_PATH: {}"
 
 #: geonode/base/management/commands/updategeoip.py:55
 msgid ""
 "Fetch database from specific url. If nothing provided, default {} will be "
 "used"
 msgstr ""
+"Λήψη βάσης δεδομένων από συγκεκριμένη διαδικτυακή διεύθυνση. Αν δεν οριστεί, "
+"η προεπιλογή που θα χρησιμοποιηθεί είναι {}"
 
 #: geonode/base/management/commands/updategeoip.py:57
 msgid "Overwrite file if exists"
-msgstr ""
+msgstr "Αντικατάσταση αρχείου εάν υπάρχει"
 
 #: geonode/base/models.py:76 geonode/services/models.py:199
 msgid "function performed by the responsible party"
@@ -321,16 +322,12 @@ msgstr ""
 "χρησιμοποιείται για να περιγραφεί το θέμα (διαχωρίζονται με κόμμα ή κενό)"
 
 #: geonode/base/models.py:508
-#, fuzzy
-#| msgid ""
-#| "commonly used word(s) or formalised word(s) or phrase(s) used to describe "
-#| "the subject (space or comma-separated"
 msgid ""
 "formalised word(s) or phrase(s) from a fixed thesaurus used to describe the "
 "subject (space or comma-separated"
 msgstr ""
-"συχνά χρησιμοποιούμενες λέξεις ή τυποποιημένες λέξεις ή φράσεις που "
-"χρησιμοποιείται για να περιγραφεί το θέμα (διαχωρίζονται με κόμμα ή κενό)"
+"συχνά χρησιμοποιούμενες λέξεις ή φράσεις από λεξικό που χρησιμοποιείται για "
+"να περιγραφεί το θέμα (διαχωρίζονται με κόμμα ή κενό)"
 
 #: geonode/base/models.py:510
 msgid "keyword identifies a location"
@@ -430,7 +427,7 @@ msgstr "λέξεις-κλειδιά"
 
 #: geonode/base/models.py:592
 msgid "keywords region"
-msgstr "λέξεις-κλειδιά περιοχή"
+msgstr "περιοχή λέξεων-κλειδιών"
 
 #: geonode/base/models.py:598
 msgid "restrictions"
@@ -438,7 +435,7 @@ msgstr "περιορισμοί"
 
 #: geonode/base/models.py:606
 msgid "restrictions other"
-msgstr "άλλους περιορισμούς εκτός"
+msgstr "άλλους περιορισμούς"
 
 #: geonode/base/models.py:612
 #: geonode/base/templates/base/_resourcebase_info_panel.html:16
@@ -471,7 +468,7 @@ msgstr "δήλωση ποιότητας δεδομένων"
 
 #: geonode/base/models.py:700
 msgid "CSW typename"
-msgstr "όνομα τύπου καταλόγου CSW "
+msgstr "όνομα τύπου καταλόγου CSW"
 
 #: geonode/base/models.py:705
 msgid "CSW schema"
@@ -498,14 +495,12 @@ msgid "CSW WKT geometry"
 msgstr "γεωμετρία καταλόγου CSW σε μορφή WKT"
 
 #: geonode/base/models.py:731
-#, fuzzy
-#| msgid "Metadata Provider"
 msgid "Metadata uploaded preserve"
-msgstr "Πάροχος Μεταδεδομένων"
+msgstr "Διατήρηση Μεταδεδομένων Μεταφόρτωσης"
 
 #: geonode/base/models.py:740 geonode/templates/metadata_detail.html:108
 msgid "Featured"
-msgstr ""
+msgstr "Προτεινόμενα"
 
 #: geonode/base/models.py:741
 msgid "Should this resource be advertised in home page?"
@@ -520,28 +515,24 @@ msgid "Should this resource be published and searchable?"
 msgstr "Πρέπει να δημοσιευθεί αυτός ο πόρος και αναζήτησης;"
 
 #: geonode/base/models.py:747 geonode/templates/metadata_detail.html:102
-#, fuzzy
-#| msgid "Not provided"
 msgid "Approved"
-msgstr "Δεν παρέχεται"
+msgstr "Εγκεκριμένα"
 
 #: geonode/base/models.py:749
 msgid "Is this resource validated from a publisher or editor?"
-msgstr ""
+msgstr "Έχει επικυρωθεί αυτός ο πόρος από έναν εκδότη ή από έναν συντάκτη;"
 
 #: geonode/base/models.py:752
-#, fuzzy
-#| msgid "Thumbnail"
 msgid "Thumbnail url"
-msgstr "Thumbnail"
+msgstr "URL Προεπισκόπησης"
 
 #: geonode/base/models.py:761
 msgid "Dirty State"
-msgstr ""
+msgstr "Μη καθαρή κατάσταση"
 
 #: geonode/base/models.py:763
 msgid "Security Rules Are Not Synched with GeoServer!"
-msgstr ""
+msgstr "Οι κανόνες ασφαλείας δεν έχουν συγχρονιστεί με τον GeoServer!"
 
 #: geonode/base/models.py:1323
 msgid "For example \"kml\""
@@ -549,7 +540,7 @@ msgstr "Για παράδειγμα \"kml\""
 
 #: geonode/base/models.py:1328
 msgid "For example \"View in Google Earth\""
-msgstr "Για παράδειγμα \"View in Google Earth\""
+msgstr "Για παράδειγμα \"Θέαση στο Google Earth\""
 
 #: geonode/base/models.py:1330
 msgid "For example \"text/xml\""
@@ -566,7 +557,7 @@ msgstr "Σχετικά"
 
 #: geonode/base/templates/base/_resourcebase_contact_snippet.html:5
 msgid "Owner, Point of Contact, Metadata Author"
-msgstr "Ιδιοκτήτης, σημείο επαφής, Μεταδεδομένα Συγγραφέας"
+msgstr "Ιδιοκτήτης, Σημείο Επαφής,  Συγγραφέας Μεταδεδομένων"
 
 #: geonode/base/templates/base/_resourcebase_info_panel.html:6
 #: geonode/catalogue/templates/geonode_metadata_full.html:57
@@ -590,10 +581,8 @@ msgstr "SRID"
 #: geonode/base/templates/base/_resourcebase_info_panel.html:121
 #: geonode/templates/metadata_detail.html:65
 #: geonode/templates/metadata_detail.html:207
-#, fuzzy
-#| msgid "More info"
 msgid "For more info see"
-msgstr "Περισσότερες πληροφορίες"
+msgstr "Για περισσότερες πληροφορίες δείτε"
 
 #: geonode/base/templates/base/_resourcebase_info_panel.html:29
 #: geonode/catalogue/templates/geonode_metadata_full.html:63
@@ -631,10 +620,8 @@ msgstr "Λέξεις-κλειδιά"
 #: geonode/layers/templates/layouts/panels.html:329
 #: geonode/maps/templates/layouts/map_panels.html:126
 #: geonode/templates/metadata_detail.html:112
-#, fuzzy
-#| msgid "Groups"
 msgid "Group"
-msgstr "Ομάδες"
+msgstr "Ομάδα"
 
 #: geonode/base/templates/base/_resourcebase_info_panel.html:101
 msgid "More info"
@@ -697,50 +684,44 @@ msgstr "Τύπος Χωρικής Αναπαράστασης"
 
 #: geonode/base/templates/base/_resourcebase_snippet.html:6
 msgid "No content created yet."
-msgstr ""
+msgstr "Χωρίς περιεχόμενο ακόμα"
 
 #: geonode/base/templates/base/_resourcebase_snippet.html:25
-#, fuzzy
-#| msgid "Temporal Extent"
 msgid "Temporal Serie"
-msgstr "Χρονική Διάρκεια"
+msgstr "Χρονική Σειρά"
 
 #: geonode/base/templates/base/_resourcebase_snippet.html:52
 #: geonode/base/templates/base/_resourcebase_snippet.html:53
 #: geonode/layers/templates/layers/layer_detail.html:39
-#, fuzzy
-#| msgid "Services"
 msgid "Service is"
-msgstr "Υπηρεσίες"
+msgstr "Υπηρεσία"
 
 #: geonode/base/templates/base/_resourcebase_snippet.html:52
 #: geonode/layers/templates/layers/layer_detail.html:39
 msgid "online"
-msgstr ""
+msgstr "σε σύνδεση"
 
 #: geonode/base/templates/base/_resourcebase_snippet.html:53
 #: geonode/layers/templates/layers/layer_detail.html:39
 msgid "offline"
-msgstr ""
+msgstr "χωρίς σύνδεση"
 
 #: geonode/base/templates/base/_resourcebase_snippet.html:57
 msgid "SECURITY NOT YET SYNCHRONIZED"
-msgstr ""
+msgstr "Οι κανόνες ασφαλείας δεν έχουν συγχρονιστεί"
 
 #: geonode/base/templates/base/_resourcebase_snippet.html:58
 #: geonode/layers/templates/layers/layer_detail.html:688
-#, fuzzy
-#| msgid "Set permissions"
 msgid "Sync permissions immediately"
-msgstr "Ρυθμίστε τα δικαιώματα"
+msgstr "Συγχρονίστε άμεσα τα δικαιώματα"
 
 #: geonode/base/templates/base/_resourcebase_snippet.html:60
 msgid "PENDING APPROVAL"
-msgstr ""
+msgstr "ΣΕ ΑΝΑΜΟΝΗ ΕΓΚΡΙΣΗΣ"
 
 #: geonode/base/templates/base/_resourcebase_snippet.html:61
 msgid "UNPUBLISHED"
-msgstr ""
+msgstr "ΜΗ ΔΗΜΟΣΙΕΥΜΕΝΟ"
 
 #: geonode/base/templates/base/_resourcebase_snippet.html:75
 #: geonode/layers/templates/layers/layer_detail.html:599
@@ -758,11 +739,11 @@ msgstr "Επισκόπηση Χάρτη"
 #: geonode/base/templates/base/batch_edit.html:6
 #: geonode/base/templates/base/batch_edit.html:12
 msgid "Batch Edit"
-msgstr ""
+msgstr "Μαζική Επεξεργασία"
 
 #: geonode/base/templates/base/batch_edit.html:8
 msgid "batch edit"
-msgstr ""
+msgstr "μαζική επεξεργασία"
 
 #: geonode/base/templates/base/batch_edit.html:18
 #: geonode/layers/templates/layers/layer_metadata_upload.html:48
@@ -790,10 +771,8 @@ msgid "Submit"
 msgstr "Υποβολή"
 
 #: geonode/catalogue/templates/geonode_metadata_full.html:42
-#, fuzzy
-#| msgid "Edit Service Metadata"
 msgid "Resource Metadata"
-msgstr "Επεξεργασία Service Metadata"
+msgstr "Μεταδεδομένα Πόρου"
 
 #: geonode/catalogue/templates/geonode_metadata_full.html:51
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/map_detail.html:153
@@ -803,21 +782,19 @@ msgstr "Επεξεργασία Service Metadata"
 #: geonode/maps/templates/layouts/map_panels.html:59
 #: geonode/maps/templates/maps/map_detail.html:156
 msgid "Thumbnail"
-msgstr "Thumbnail"
+msgstr "Προεπισκόπηση"
 
 #: geonode/catalogue/templates/geonode_metadata_full.html:54
-#, fuzzy
-#| msgid "Resources"
 msgid "Resource ID"
-msgstr "Πόροι"
+msgstr "Μοναδικό Αναγνωριστικό Πόρου"
 
 #: geonode/catalogue/templates/geonode_metadata_full.html:107
 msgid "Start"
-msgstr ""
+msgstr "Έναρξη"
 
 #: geonode/catalogue/templates/geonode_metadata_full.html:113
 msgid "End"
-msgstr ""
+msgstr "Λήξη"
 
 #: geonode/catalogue/templates/geonode_metadata_full.html:131
 #: geonode/templates/search/_extent_filter.html:3
@@ -825,10 +802,8 @@ msgid "Extent"
 msgstr "Έκταση"
 
 #: geonode/catalogue/templates/geonode_metadata_full.html:141
-#, fuzzy
-#| msgid "Coordinate Reference System"
 msgid "Spatial Reference System Identifier"
-msgstr "Σύστημα αναφοράς συντεταγμένων"
+msgstr "Σύστημα Αναφοράς Συντεταγμένων"
 
 #: geonode/catalogue/templates/geonode_metadata_full.html:161
 #: geonode/layers/templates/layers/layer_metadata.html:62
@@ -839,10 +814,8 @@ msgid "Attributes"
 msgstr "Χαρακτηριστικά"
 
 #: geonode/catalogue/templates/geonode_metadata_full.html:169
-#, fuzzy
-#| msgid "attribute name"
 msgid "Attribute name"
-msgstr "όνομα χαρακτηριστικού"
+msgstr "Όνομα χαρακτηριστικού"
 
 #: geonode/catalogue/templates/geonode_metadata_full.html:169
 #: geonode/groups/models.py:38 geonode/groups/models.py:76
@@ -857,16 +830,12 @@ msgid "Description"
 msgstr "Περιγραφή"
 
 #: geonode/client/apps.py:28
-#, fuzzy
-#| msgid "GeoNode site admin"
 msgid "GeoNode Client Library"
-msgstr "GeoNode διαχειριστή του site"
+msgstr "Βιβλιοθήκη Εφαρμογής GeoNode"
 
 #: geonode/client/templates/leaflet/layers/layer_leaflet_map.html:340
-#, fuzzy
-#| msgid "Upload Layer"
 msgid "Upload QML Style"
-msgstr "Ανεβάστε Επιφάνεια"
+msgstr "Ανεβάστε Στυλ QML"
 
 #: geonode/client/templates/leaflet/maps/map_base.html:4
 #: geonode/client/templates/leaflet/maps/map_list.html:10
@@ -905,10 +874,8 @@ msgid "Create a New Map"
 msgstr "Δημιουργήστε ένα Νέο Χάρτη"
 
 #: geonode/client/templates/leaflet/maps/map_view.html:55
-#, fuzzy
-#| msgid "Available styles"
 msgid "Available layers"
-msgstr "Διαθέσιμα στυλ"
+msgstr "Διαθέσιμα Επίπεδα"
 
 #: geonode/client/templates/leaflet/maps/map_view.html:76
 #: geonode/client/templates/leaflet/maps/map_view.html:114
@@ -921,10 +888,8 @@ msgid "Save"
 msgstr "Αποθήκευση"
 
 #: geonode/client/templates/leaflet/maps/map_view.html:96
-#, fuzzy
-#| msgid "Remove Map"
 msgid "Save Map"
-msgstr "Διαγραφή Χάρτη"
+msgstr "Αποθήκευση Χάρτη"
 
 #: geonode/client/templates/leaflet/maps/map_view.html:115
 #: geonode/contrib/monitoring/frontend/index.html:286
@@ -949,45 +914,39 @@ msgstr "Διαγραφή Χάρτη"
 #: geonode/templates/metadata_base.html:168
 #: geonode/templates/metadata_base.html:185
 msgid "Close"
-msgstr "Κοντά"
+msgstr "Κλείσιμο"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:169
 msgid "Identify"
-msgstr ""
+msgstr "Αναγνώριση"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:178
 msgid "Map Coordinates - longitude, latitude"
-msgstr ""
+msgstr "Συντεταγμένες Χάρτη - Γεωγραφικό Μήκος, Πλάτος"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:185
 msgid "Print"
-msgstr ""
+msgstr "Εκτύπωση"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:205
 msgid "Measure"
-msgstr ""
+msgstr "Μέτρηση"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:212
-#, fuzzy
-#| msgid "Share data"
 msgid "Share Map"
-msgstr "Share data"
+msgstr "Διαμοιρασμός Δεδομένων"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:220
 msgid "Find Place"
-msgstr ""
+msgstr "Αναζήτηση Τοποθεσίας"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:249
-#, fuzzy
-#| msgid "Create Message"
 msgid "Create Feature"
-msgstr "Δημιουργήστε Μήνυμα"
+msgstr "Δημιουργία Οντότητας"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:250
-#, fuzzy
-#| msgid "Edit Metadata"
 msgid "Edit Feature"
-msgstr "Επεξεργασία Μεταδεδομένων"
+msgstr "Επεξεργασία Οντότητας"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:318
 #: geonode/layers/templates/layers/layer_detail.html:443
@@ -997,88 +956,75 @@ msgid "Search"
 msgstr "Αναζήτηση"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:319
-#, fuzzy
-#| msgid "Layer Title"
 msgid "Layers List"
-msgstr "Layer Τίτλος"
+msgstr "Λίστα Επιπέδων"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:381
-#, fuzzy
-#| msgid "Upload Layer"
 msgid "Upload a Layer"
-msgstr "Ανεβάστε Επιφάνεια"
+msgstr "Ανεβάστε Επίπεδο"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:383
 msgid "Click here to upload a layer."
-msgstr ""
+msgstr "Κάντε κλικ εδώ για να ανεβάσετε ένα επίπεδο"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:384
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:396
 msgid "Remember to save the map before."
-msgstr ""
+msgstr "Θυμηθείτε να αποθηκεύσετε το χάρτη."
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:393
-#, fuzzy
-#| msgid "Create a new map"
 msgid "Create a new Layer"
-msgstr "Δημιουργήστε ένα νέο χάρτη"
+msgstr "Δημιουργήστε ένα νέο επίπεδο"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:395
-#, fuzzy
-#| msgid "Click the button below to generate a new map based on this layer."
 msgid "Click here to create a new layer."
 msgstr ""
-"Κατε κλίκ στο κουμπί παρακάτω για να δημιουργήσετε ένα νέο χάρτη βασισμένο "
+"Κάντε κλικ στο κουμπί παρακάτω για να δημιουργήσετε ένα νέο χάρτη βασισμένο "
 "σε αυτή την επιφάνεια"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:408
 msgid "Rectify Images"
-msgstr ""
+msgstr "Διόρθωση Εικόνων"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:409
 msgid ""
 "Use <a target='_blank' href='https://mapwarper.net/'>Map Warper</a> to "
 "upload and rectify scanned maps for use in WorldMap."
 msgstr ""
+"Χρησιμοποιήστε το <a target='_blank' href='https://mapwarper.net/'>Map "
+"Warper</a> για να μεταφορτώσετε και να διορθώσετε σαρωμένους χάρτες για "
+"χρήση μέσα στο WorldMap."
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:422
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:438
-#, fuzzy
-#| msgid "Web Map Service"
 msgid "Submit a Map Service URL"
-msgstr "Web Map Service"
+msgstr "Υποβάλετε ένα URL για Web Map Service"
 
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:425
 #: geonode/client/templates/worldmap/maps/map_worldmap.html:441
 msgid ""
 "<a target='_blank' href='/maps/add_endpoint'>Submit a Map Service URL</a>"
 msgstr ""
+"<a target='_blank' href='/maps/add_endpoint'>Υποβάλετε URL μιας υπηρεσίας "
+"θέασης</a>"
 
 #: geonode/contrib/createlayer/forms.py:35
-#, fuzzy
-#| msgid "Layer Name"
 msgid "Layer name"
-msgstr "Layer Όνομα"
+msgstr "Όνομα Επιπέδου"
 
 #: geonode/contrib/createlayer/forms.py:36
-#, fuzzy
-#| msgid "Layer Title"
 msgid "Layer title"
-msgstr "Layer Τίτλος"
+msgstr "Τίτλος Επιπέδου"
 
 #: geonode/contrib/createlayer/forms.py:37
-#, fuzzy
-#| msgid "property type"
 msgid "Geometry type"
-msgstr "τύπος χαρακτηριστικού"
+msgstr "Τύπος Γεωμετρίας"
 
 #: geonode/contrib/createlayer/templates/createlayer/layer_create.html:6
 #: geonode/templates/500.html:160 geonode/templates/base.html:166
 #: geonode/templates/base.html:325
-#, fuzzy
-#| msgid "Create a Map"
 msgid "Create Layer"
-msgstr "Δημιουργήστε ένα χάρτη"
+msgstr "Δημιουργήστε Επίπεδο"
 
 #: geonode/contrib/createlayer/templates/createlayer/layer_create.html:19
 #: geonode/layers/templates/layers/layer_granule_remove.html:8
@@ -1096,16 +1042,12 @@ msgid "Explore Layers"
 msgstr "Εξερεύνηση Επιφανειών"
 
 #: geonode/contrib/createlayer/templates/createlayer/layer_create.html:20
-#, fuzzy
-#| msgid "Create a map using this layer"
 msgid "Create an empty layer"
-msgstr "Δημιουργήστε ένα χάρτη με αυτή την επιφάνεια"
+msgstr "Δημιουργήστε ένα κενό επίπεδο"
 
 #: geonode/contrib/createlayer/templates/createlayer/layer_create.html:38
-#, fuzzy
-#| msgid "Attribute"
 msgid "Add Attribute"
-msgstr "Ιδιότητα"
+msgstr "Προσθήκη Ιδιότητας"
 
 #: geonode/contrib/createlayer/templates/createlayer/layer_create.html:41
 #: geonode/groups/templates/groups/group_create.html:26
@@ -1133,13 +1075,11 @@ msgstr "Δικαιώματα"
 
 #: geonode/contrib/datastore_shards/models.py:41
 msgid "Database Shard Name"
-msgstr ""
+msgstr "Όνομα Κατανεμημένης Βάσης Δεδομένων"
 
 #: geonode/contrib/datastore_shards/models.py:42
-#, fuzzy
-#| msgid "Layers"
 msgid "Layers Count"
-msgstr "Επιφάνειες"
+msgstr "Αριθμός Επιπέδων"
 
 #: geonode/contrib/exif/templates/exif/_exif_document_detail.html:5
 msgid "Width"
@@ -1192,7 +1132,7 @@ msgstr "False"
 
 #: geonode/contrib/exif/templates/exif/_exif_document_detail.html:21
 msgid "Speed Rating"
-msgstr ""
+msgstr "Γρήγορη Αξιολόγηση"
 
 #: geonode/contrib/favorite/readme.txt:38
 #: geonode/contrib/favorite/templates/favorite/_favorite.html:5
@@ -1206,7 +1146,7 @@ msgstr "Αγαπημένα"
 
 #: geonode/contrib/favorite/templates/favorite/_favorite.html:17
 msgid "Log in to add/delete Favorites."
-msgstr ""
+msgstr "Συνδεθείτε για να προσθέσετε/διαγράψετε τα Αγαπημένα."
 
 #: geonode/contrib/favorite/templates/favorite/_favorite_js.html:23
 msgid "Delete from Favorites"
@@ -1218,7 +1158,7 @@ msgstr "Προσθήκη στα αγαπημένα"
 
 #: geonode/contrib/favorite/templates/favorite/favorite_list.html:8
 msgid "Favorites for"
-msgstr ""
+msgstr "Αγαπημένα για"
 
 #: geonode/contrib/geosites/apps.py:29
 msgid "Geosites"
@@ -1248,17 +1188,13 @@ msgstr ""
 #: geonode/contrib/geosites/site_template/templates/site_index.html:15
 #: geonode/contrib/geosites/templates/master_index.html:16
 #: geonode/templates/index.html:23
-#, fuzzy
-#| msgid "Getting Started"
 msgid "Get Started &raquo;"
-msgstr "Ξεκινώντας"
+msgstr "Ξεκινήστε &raquo;"
 
 #: geonode/contrib/geosites/templates/master_index.html:30
 #: geonode/templates/index.html:38
-#, fuzzy
-#| msgid "Search"
 msgid "Search for Data."
-msgstr "Αναζήτηση"
+msgstr "Αναζήτηση για Δεδομένα."
 
 #: geonode/contrib/geosites/templates/master_index.html:61
 #: geonode/contrib/geosites/templates/master_index.html:71
@@ -1314,18 +1250,14 @@ msgstr[1] "Χάρτες"
 
 #: geonode/contrib/geosites/templates/master_index.html:72
 #: geonode/templates/index.html:270
-#, fuzzy
-#| msgid ""
-#| "Data is available for browsing, aggregating and styling to generate maps "
-#| "which can be shared publicly or restricted to specific users only."
 msgid ""
 "Data is available for browsing, aggregating and styling to generate maps "
 "which can be saved, downloaded, shared publicly or restricted to specify "
 "users only."
 msgstr ""
-"Τα δεδομένα είναι διαθέσιμα για την περιήγηση, τη συγκέντρωση και στυλ για "
-"να δημιουργήσει χάρτες που μπορεί να μοιραστεί δημοσίως ή να περιορίζεται "
-"μόνο σε συγκεκριμένους χρήστες."
+"Τα δεδομένα είναι διαθέσιμα για περιήγηση, συγκέντρωση, μεταφόρτωση, "
+"δημιουργία χαρτών και διαμοιρασμό δημοσίως ή με περιορισμό μόνο σε "
+"συγκεκριμένους χρήστες."
 
 #: geonode/contrib/geosites/templates/master_index.html:74
 #: geonode/templates/index.html:272
@@ -1342,12 +1274,10 @@ msgstr "Αναζήτηση χαρτών"
 #: geonode/documents/templates/documents/document_detail.html:150
 #: geonode/templates/index.html:279
 #: geonode/templates/pinax/notifications/request_download_resourcebase/full.txt:9
-#, fuzzy
-#| msgid "Document"
 msgid "Document"
 msgid_plural "Documents"
 msgstr[0] "Κείμενο"
-msgstr[1] "Κείμενο"
+msgstr[1] "Κείμενα"
 
 #: geonode/contrib/geosites/templates/master_index.html:82
 #: geonode/templates/index.html:280
@@ -1355,20 +1285,19 @@ msgid ""
 "As for the layers and maps GeoNode allows to publish tabular and text data, "
 "manage theirs metadata and associated documents."
 msgstr ""
+"Σχετικά με τα επίπεδα και τους χάρτες, το GeoNode επιτρέπει τη δημοσίευση "
+"δεδομένων σε πίνακες και κείμενο, τη διαχείριση των μεταδεδομένων τους και "
+"των συσχετισμένων εγγράφων τους."
 
 #: geonode/contrib/geosites/templates/master_index.html:84
 #: geonode/templates/index.html:282
-#, fuzzy
-#| msgid "Add Comment"
 msgid "Add documents"
-msgstr "Προσθήση Σχολίου"
+msgstr "Προσθήκη κειμένων"
 
 #: geonode/contrib/geosites/templates/master_index.html:86
 #: geonode/templates/index.html:284
-#, fuzzy
-#| msgid "Explore Documents"
 msgid "Explore documents"
-msgstr "Εξερευνήστε Έγγραφα"
+msgstr "Εξερευνήστε έγγραφα"
 
 #: geonode/contrib/geosites/templates/master_index.html:91
 #: geonode/templates/index.html:289
@@ -1380,17 +1309,12 @@ msgstr[1] "Χρήστες"
 
 #: geonode/contrib/geosites/templates/master_index.html:92
 #: geonode/templates/index.html:290
-#, fuzzy
-#| msgid ""
-#| "GeoNode allows registered users to easily upload geospatial data in "
-#| "several formats including shapefile and GeoTiff."
 msgid ""
 "Geonode allows registered users to easily upload geospatial data and various "
 "documents in several formats."
 msgstr ""
-"GeoNode επιτρέπει στους εγγεγραμμένους χρήστες να ανεβάζουν εύκολα "
-"γεωχωρικών δεδομένων σε διάφορες μορφές, συμπεριλαμβανομένων shapefile και "
-"GeoTiff."
+"Το GeoNode επιτρέπει στους εγγεγραμμένους χρήστες να μεταφορτώνουν εύκολα "
+"γεωχωρικά δεδομένα σε διάφορες μορφές."
 
 #: geonode/contrib/geosites/templates/master_index.html:93
 #: geonode/templates/index.html:291
@@ -1400,7 +1324,7 @@ msgstr "Προβολή χρηστών"
 #: geonode/contrib/geosites/templates/master_index.html:120
 #: geonode/templates/index.html:318
 msgid "Our partners"
-msgstr ""
+msgstr "Οι συνεργάτες μας"
 
 #: geonode/contrib/geosites/views.py:124 geonode/geoserver/views.py:667
 #: geonode/geoserver/views.py:723
@@ -1409,22 +1333,20 @@ msgstr "Άκυρα Διαπιστευτήρια Εξουσιοδότησης HTT
 
 #: geonode/contrib/monitoring/__init__.py:42
 msgid "Monitoring alert"
-msgstr ""
+msgstr "Ειδοποίηση από Σύστημα Παρακολούθησης"
 
 #: geonode/contrib/monitoring/__init__.py:43
 msgid "Alert situation reported by monitoring"
-msgstr ""
+msgstr "Κατάσταση συναγερμού από σύστημα παρακολούθησης"
 
 #: geonode/contrib/monitoring/collector.py:995
 msgid "GeoNode Monitoring on {} reports errors: {}"
-msgstr ""
+msgstr "Το Σύστημα Παρακολούθησης GeoNode στο {} αναφέρει σφάλματα: {}"
 
 #: geonode/contrib/monitoring/frontend/index.html:40
 #: geonode/templates/base.html:132
-#, fuzzy
-#| msgid "GeoNode Help"
 msgid "GeoNode Search"
-msgstr "Βοήθεια GeoNode"
+msgstr "Αναζήτηση στο GeoNode"
 
 #: geonode/contrib/monitoring/frontend/index.html:52
 #: geonode/contrib/monitoring/frontend/index.html:142
@@ -1469,15 +1391,15 @@ msgstr "Ομάδες"
 
 #: geonode/contrib/monitoring/frontend/index.html:72
 #: geonode/groups/models.py:41 geonode/templates/base.html:191
-#, fuzzy
-#| msgid "Categories"
 msgid "Group Categories"
-msgstr "Κατηγορίες"
+msgstr "Ομάδες Κατηγοριών"
 
 #: geonode/contrib/monitoring/frontend/index.html:93
 #: geonode/templates/500.html:114 geonode/templates/base.html:280
 msgid "You are using an outdated browser that is not supported by GeoNode."
 msgstr ""
+"Χρησιμοποιείτε κάποιο περιηγητή παλιάς τεχνολογίας που δεν υποστηρίζεται από "
+"το GeoNode"
 
 #: geonode/contrib/monitoring/frontend/index.html:94
 #: geonode/templates/500.html:115 geonode/templates/base.html:281
@@ -1485,16 +1407,18 @@ msgid ""
 "Please use a <strong>modern browser</strong> like Mozilla Firefox, Google "
 "Chrome or Safari."
 msgstr ""
+"Παρακαλούμε χρησιμοποιήστε κάποιο <strong>σύγχρονο περιηγητή</strong> όπως ο "
+"Mozilla Firefox, Google Chrome ή Safari."
 
 #: geonode/contrib/monitoring/frontend/index.html:100
 #: geonode/templates/_status_message.html:4
 msgid "Placeholder for status-message"
-msgstr ""
+msgstr "Δεσμευμένος χώρος για μηνύματα κατάστασης"
 
 #: geonode/contrib/monitoring/frontend/index.html:101
 #: geonode/templates/_status_message.html:5
 msgid "Placeholder for status-message-body"
-msgstr ""
+msgstr "Δεσμευμένος χώρος για περιεχόμενο μηνυμάτων κατάστασης"
 
 #: geonode/contrib/monitoring/frontend/index.html:142
 #: geonode/contrib/worldmap/wm_extra/templates/wm_extra/maps/mobile.html:30
@@ -1539,7 +1463,7 @@ msgstr "Αυτόματη Σύνδεση"
 
 #: geonode/contrib/monitoring/management/commands/collect_metrics.py:46
 msgid "Show list of services"
-msgstr ""
+msgstr "Θέαση λίστας υπηρεσιών"
 
 #: geonode/contrib/monitoring/management/commands/collect_metrics.py:48
 #: geonode/contrib/monitoring/management/commands/render_metrics.py:55
@@ -1547,6 +1471,8 @@ msgid ""
 "Process data since specific timestamp (YYYY-MM-DD HH:MM:SS format). If not "
 "provided, last sync will be used."
 msgstr ""
+"Επεξεργασία δεδομένων από την χρονική στιγμή (με πρότυπο YYYY-MM-DD HH:MM:"
+"SS). Αν δεν δοθεί, θα χρησιμοποιηθεί η στιγμή της τελευταίας ενημέρωσης."
 
 #: geonode/contrib/monitoring/management/commands/collect_metrics.py:51
 #: geonode/contrib/monitoring/management/commands/render_metrics.py:57
@@ -1554,68 +1480,70 @@ msgid ""
 "Process data until specific timestamp (YYYY-MM-DD HH:MM:SS format). If not "
 "provided, now will be used."
 msgstr ""
+"Επεξεργασία δεδομένων εως την χρονική στιγμή (με πρότυπο YYYY-MM-DD HH:MM:"
+"SS). Αν δεν δοθεί, θα χρησιμοποιηθεί η στιγμή της εκτέλεσης (τώρα)."
 
 #: geonode/contrib/monitoring/management/commands/collect_metrics.py:54
 msgid "Force check"
-msgstr ""
+msgstr "Πρόκληση ελέγχου"
 
 #: geonode/contrib/monitoring/management/commands/collect_metrics.py:56
 msgid "Format of audit log (xml, json)"
-msgstr ""
+msgstr "Πρότυπο ελέγχου (xml, json)"
 
 #: geonode/contrib/monitoring/management/commands/collect_metrics.py:58
 msgid ""
 "Should old data be preserved (default: no, data older than settings."
 "MONITORING_DATA_TTL will be removed)"
 msgstr ""
+"Θα πρέπει να διατηρηθούν τα παλιά δεδομένα (προεπιλογή: όχι, δεδομένα "
+"παλιότερα από την ρύθμιση settings.MONITORING_DATA_TTL θα σβηστούν)"
 
 #: geonode/contrib/monitoring/management/commands/collect_metrics.py:61
 msgid "Should stop on first error occured (default: no)"
-msgstr ""
+msgstr "Θα πρέπει να σταματήσει η εκτέλεση στο πρώτο σφάλμα (προεπιλογή: όχι)"
 
 #: geonode/contrib/monitoring/management/commands/collect_metrics.py:63
 msgid "Should process and send notifications as well (default: no)"
-msgstr ""
+msgstr "Θα πρέπει η διαδικασία να στέλνει ειδοποιήσεις (προεπιλογή: όχι)"
 
 #: geonode/contrib/monitoring/management/commands/collect_metrics.py:65
 msgid "Collect data from this service only"
-msgstr ""
+msgstr "Συλλογή δεδομένων μόνο από αυτή την υπηρεσία"
 
 #: geonode/contrib/monitoring/management/commands/render_metrics.py:47
 msgid "Show list of metrics"
-msgstr ""
+msgstr "Εμφάνιση λίστας μετρικών"
 
 #: geonode/contrib/monitoring/management/commands/render_metrics.py:49
 msgid "Show list of labels for metric"
-msgstr ""
+msgstr "Εμφάνιση λίστας ετικετών για μετρικές"
 
 #: geonode/contrib/monitoring/management/commands/render_metrics.py:52
 msgid "Show list of resources for metric"
-msgstr ""
+msgstr "Εμφάνιση λίστας πόρων για μετρικές"
 
 #: geonode/contrib/monitoring/management/commands/render_metrics.py:60
 msgid "Data aggregation interval in seconds (default: 60)"
-msgstr ""
+msgstr "Διάστημα καταγραφής δεδομένων σε δευτερόλεπτα (προεπιλογή: 60)"
 
 #: geonode/contrib/monitoring/management/commands/render_metrics.py:61
-#, fuzzy
-#| msgid "attribute name"
 msgid "Metric name"
-msgstr "όνομα χαρακτηριστικού"
+msgstr "Όνομα χαρακτηριστικού"
 
 #: geonode/contrib/monitoring/management/commands/render_metrics.py:64
 msgid "Show data for specific resource in resource_type=resource_name format"
 msgstr ""
+"Εμφάνιση δεδομένων για συγκεκριμένο πόρο σε πρότυπο "
+"resource_type=resource_name"
 
 #: geonode/contrib/monitoring/management/commands/render_metrics.py:67
-#, fuzzy
-#| msgid "reference date for the cited resource"
 msgid "Show data for specific resource"
-msgstr "ημερομηνία αναφοράς του πόρου που αναφέρεται"
+msgstr "Εμφάνιση δεδομένων για συγκεκριμένο πόρο"
 
 #: geonode/contrib/monitoring/management/commands/render_metrics.py:70
 msgid "Show data for specific label"
-msgstr ""
+msgstr "Εμφάνιση δεδομένων για συγκεκριμένη ετικέτα"
 
 #: geonode/contrib/monitoring/models.py:99
 #: geonode/people/templates/people/profile_detail.html:160
@@ -1624,26 +1552,18 @@ msgid "GeoServer"
 msgstr "GeoServer"
 
 #: geonode/contrib/monitoring/models.py:100
-#, fuzzy
-#| msgid "GeoServer"
 msgid "Host (GeoServer)"
-msgstr "GeoServer"
+msgstr "Εξυπηρετητής (GeoServer)"
 
 #: geonode/contrib/monitoring/models.py:101
-#, fuzzy
-#| msgid "About GeoNode"
 msgid "Host (GeoNode)"
-msgstr "Σχετικά με GeoNode"
+msgstr "Εξυπηρετητής (GeoNode)"
 
 #: geonode/contrib/monitoring/models.py:168
-#, fuzzy
-#| msgid "Resources"
 msgid "No resource"
-msgstr "Πόροι"
+msgstr "Κανένας πόρος"
 
 #: geonode/contrib/monitoring/models.py:172
-#, fuzzy
-#| msgid "Styles"
 msgid "Style"
 msgstr "Στυλ"
 
@@ -1656,27 +1576,25 @@ msgstr "Διαχειριστής"
 #: geonode/contrib/monitoring/models.py:174
 #: geonode/contrib/monitoring/models.py:300
 msgid "Other"
-msgstr ""
+msgstr "Άλλα"
 
 #: geonode/contrib/monitoring/models.py:196
 #: geonode/contrib/monitoring/models.py:232
 msgid "Rate"
-msgstr ""
+msgstr "Βαθμός"
 
 #: geonode/contrib/monitoring/models.py:197
 #: geonode/contrib/monitoring/models.py:234
-#, fuzzy
-#| msgid "count"
 msgid "Count"
-msgstr "υπολογίζω"
+msgstr "Μέτρηση"
 
 #: geonode/contrib/monitoring/models.py:198
 msgid "Value"
-msgstr ""
+msgstr "Τιμή"
 
 #: geonode/contrib/monitoring/models.py:199
 msgid "Value numeric"
-msgstr ""
+msgstr "Αριθμητική τιμή"
 
 #: geonode/contrib/monitoring/models.py:223
 msgid "Bytes"
@@ -1696,27 +1614,27 @@ msgstr ""
 
 #: geonode/contrib/monitoring/models.py:227
 msgid "Bytes per second"
-msgstr ""
+msgstr "Bytes ανά δευτερόλεπτο"
 
 #: geonode/contrib/monitoring/models.py:228
 msgid "Kilobytes per second"
-msgstr ""
+msgstr "Kilobytes ανά δευτερόλεπτο"
 
 #: geonode/contrib/monitoring/models.py:229
 msgid "Megabytes per second"
-msgstr ""
+msgstr "Megabytes ανά δευτερόλεπτο"
 
 #: geonode/contrib/monitoring/models.py:230
 msgid "Gigabytes per second"
-msgstr ""
+msgstr "Gigabytes ανά δευτερόλεπτο"
 
 #: geonode/contrib/monitoring/models.py:231
 msgid "Seconds"
-msgstr ""
+msgstr "Δευτερόλεπτα"
 
 #: geonode/contrib/monitoring/models.py:233
 msgid "Percentage"
-msgstr ""
+msgstr "Ποσοστό"
 
 #: geonode/contrib/monitoring/models.py:300
 #: geonode/groups/templates/groups/activity.html:25
