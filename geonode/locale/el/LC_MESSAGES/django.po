@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-03 23:36+0300\n"
-"PO-Revision-Date: 2019-05-06 20:03+0300\n"
+"PO-Revision-Date: 2019-05-06 20:54+0300\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/"
 "el/)\n"
@@ -2723,7 +2723,7 @@ msgstr "Μεταφόρτωση αρχείων"
 #: geonode/templates/500.html:162 geonode/templates/base.html:168
 #: geonode/templates/base.html:327
 msgid "Upload Document"
-msgstr "Μεταφόρτωση εγγράφων"
+msgstr "Μεταφόρτωση Εγγράφων"
 
 #: geonode/documents/templates/documents/document_upload.html:21
 #: geonode/layers/templates/layers/layer_detail.html:459
@@ -5454,10 +5454,8 @@ msgstr "Ανακοινώσεις"
 #: geonode/templates/500.html:186 geonode/templates/500.html:274
 #: geonode/templates/base.html:196 geonode/templates/base.html:351
 #: geonode/templates/invitations/forms/_invite.html:7
-#, fuzzy
-#| msgid "Invite User"
 msgid "Invite Users"
-msgstr "Πρόσκληση χρήστη"
+msgstr "Πρόσκληση Χρηστών"
 
 #: geonode/people/templates/people/profile_detail.html:171
 msgid "User Activities"
@@ -6015,24 +6013,18 @@ msgstr ""
 
 #: geonode/templates/500.html:165 geonode/templates/base.html:171
 #: geonode/templates/base.html:330
-#, fuzzy
-#| msgid "Remote Services"
 msgid "Add Remote Service"
-msgstr "Υπηρεσίες απομακρυσμένης"
+msgstr "Προσθήκη Υπηρεσίας"
 
 #: geonode/templates/500.html:174 geonode/templates/base.html:180
 #: geonode/templates/base.html:339
-#, fuzzy
-#| msgid "Create a Map"
 msgid "Create Map"
-msgstr "Δημιουργήστε ένα χάρτη"
+msgstr "Δημιουργία Χάρτη"
 
 #: geonode/templates/500.html:188 geonode/templates/base.html:198
 #: geonode/templates/base.html:353
-#, fuzzy
-#| msgid "Add layers"
 msgid "Add User"
-msgstr "Προσθήκη επιπέδων"
+msgstr "Δημιουργία Χρήστη"
 
 #: geonode/templates/500.html:259
 msgid "Menu"
@@ -7080,11 +7072,11 @@ msgstr ""
 
 #: geonode/templates/index.html:49
 msgid "Advanced Search"
-msgstr ""
+msgstr "Προχωρημένη Αναζήτηση"
 
 #: geonode/templates/index.html:60
 msgid "Discover the available datasets."
-msgstr ""
+msgstr "Εξερευνήστε τα διαθέσιμα δεδομένα."
 
 #: geonode/templates/index.html:64
 msgid ""
