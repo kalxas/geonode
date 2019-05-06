@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-03 23:36+0300\n"
-"PO-Revision-Date: 2019-05-06 20:57+0300\n"
+"PO-Revision-Date: 2019-05-06 21:12+0300\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/"
 "el/)\n"
@@ -3577,7 +3577,7 @@ msgstr "Χρόνος"
 #: geonode/layers/templates/layers/layer_detail.html:86
 #: geonode/templates/index.html:103
 msgid "Elevation"
-msgstr "Υψόμετρο"
+msgstr "Υψομετρο"
 
 #: geonode/layers/templates/layers/layer_detail.html:87
 msgid "Actions"
@@ -5376,7 +5376,7 @@ msgstr "Οργανισμός"
 #: geonode/templates/metadata_detail.html:281
 #: geonode/templates/metadata_detail.html:357
 msgid "Location"
-msgstr "Τοποθεσία"
+msgstr "Τοποθεσια"
 
 #: geonode/people/templates/people/profile_detail.html:93
 #: geonode/people/templates/people/profile_detail.html:113
@@ -7086,7 +7086,7 @@ msgstr ""
 
 #: geonode/templates/index.html:67
 msgid "Biota"
-msgstr ""
+msgstr "Βιοκοσμος"
 
 #: geonode/templates/index.html:73
 msgid ""
@@ -7095,7 +7095,7 @@ msgstr ""
 
 #: geonode/templates/index.html:76
 msgid "Boundaries"
-msgstr ""
+msgstr "Ορια"
 
 #: geonode/templates/index.html:82
 msgid ""
@@ -7105,7 +7105,7 @@ msgstr ""
 
 #: geonode/templates/index.html:85
 msgid "Climate"
-msgstr ""
+msgstr "Κλιμα"
 
 #: geonode/templates/index.html:91
 msgid ""
@@ -7117,7 +7117,7 @@ msgstr ""
 
 #: geonode/templates/index.html:94
 msgid "Economy"
-msgstr ""
+msgstr "Οικονομια"
 
 #: geonode/templates/index.html:100
 msgid ""
@@ -7133,10 +7133,8 @@ msgid ""
 msgstr ""
 
 #: geonode/templates/index.html:112
-#, fuzzy
-#| msgid "Announcement"
 msgid "Environment"
-msgstr "Ανακοίνωση"
+msgstr "Περιβαλλον"
 
 #: geonode/templates/index.html:118
 msgid ""
@@ -7147,7 +7145,7 @@ msgstr ""
 
 #: geonode/templates/index.html:121
 msgid "Farming"
-msgstr ""
+msgstr "Γεωργια"
 
 #: geonode/templates/index.html:127
 msgid ""
@@ -7160,7 +7158,7 @@ msgstr ""
 
 #: geonode/templates/index.html:130
 msgid "Geoscience"
-msgstr ""
+msgstr "Γεωεπιστημη"
 
 #: geonode/templates/index.html:136
 msgid ""
@@ -7171,7 +7169,7 @@ msgstr ""
 
 #: geonode/templates/index.html:139
 msgid "Health"
-msgstr ""
+msgstr "Υγεια"
 
 #: geonode/templates/index.html:145
 msgid ""
@@ -7180,10 +7178,8 @@ msgid ""
 msgstr ""
 
 #: geonode/templates/index.html:148
-#, fuzzy
-#| msgid "Browsing Maps"
 msgid "Base Maps"
-msgstr "Περιήγηση Χαρτών"
+msgstr "Υποβαθρα"
 
 #: geonode/templates/index.html:154
 msgid ""
@@ -7194,7 +7190,7 @@ msgstr ""
 
 #: geonode/templates/index.html:157
 msgid "Inland Waters"
-msgstr ""
+msgstr "Υδατινοι Ποροι"
 
 #: geonode/templates/index.html:163
 msgid ""
@@ -7204,7 +7200,7 @@ msgstr ""
 
 #: geonode/templates/index.html:166
 msgid "Intelligence"
-msgstr ""
+msgstr "Πληροφορια"
 
 #: geonode/templates/index.html:172
 msgid ""
@@ -7220,7 +7216,7 @@ msgstr ""
 
 #: geonode/templates/index.html:184
 msgid "Oceans"
-msgstr ""
+msgstr "Ωκεανοι"
 
 #: geonode/templates/index.html:190
 msgid ""
@@ -7230,7 +7226,7 @@ msgstr ""
 
 #: geonode/templates/index.html:193
 msgid "Planning"
-msgstr ""
+msgstr "Σχεδιασμος"
 
 #: geonode/templates/index.html:199
 msgid ""
@@ -7241,10 +7237,8 @@ msgid ""
 msgstr ""
 
 #: geonode/templates/index.html:202
-#, fuzzy
-#| msgid "Location"
 msgid "Population"
-msgstr "Τοποθεσία"
+msgstr "Πληθυσμος"
 
 #: geonode/templates/index.html:208
 msgid ""
@@ -7256,7 +7250,7 @@ msgstr ""
 
 #: geonode/templates/index.html:211
 msgid "Society"
-msgstr ""
+msgstr "Κοινωνια"
 
 #: geonode/templates/index.html:217
 msgid ""
@@ -7266,7 +7260,7 @@ msgstr ""
 
 #: geonode/templates/index.html:220
 msgid "Structure"
-msgstr ""
+msgstr "Δομηση"
 
 #: geonode/templates/index.html:226
 msgid ""
@@ -7277,7 +7271,7 @@ msgstr ""
 
 #: geonode/templates/index.html:229
 msgid "Transportation"
-msgstr "Μεταφορές"
+msgstr "Μεταφορες"
 
 #: geonode/templates/index.html:235
 msgid ""
@@ -7289,10 +7283,8 @@ msgid ""
 msgstr ""
 
 #: geonode/templates/index.html:238
-#, fuzzy
-#| msgid "User Activities"
 msgid "Utilities"
-msgstr "Χρήστης Δραστηριότητες"
+msgstr "Υπηρεσιες"
 
 #: geonode/templates/index.html:253
 msgid "Featured Datasets"
