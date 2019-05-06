@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-03 23:36+0300\n"
-"PO-Revision-Date: 2019-05-06 19:00+0300\n"
+"PO-Revision-Date: 2019-05-06 20:03+0300\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/"
 "el/)\n"
@@ -3824,7 +3824,7 @@ msgstr "Κανένα στύλ δεν είναι συνδεδεμένο με αυ
 
 #: geonode/layers/templates/layers/layer_detail.html:669
 msgid "Refresh Attributes and Statistics of this layer"
-msgstr ""
+msgstr "Ενημέρωση Χαρακτηριστικών και Στατιστικών για αυτό το επίπεδο"
 
 #: geonode/layers/templates/layers/layer_detail.html:670
 msgid ""
@@ -3835,23 +3835,21 @@ msgstr ""
 
 #: geonode/layers/templates/layers/layer_detail.html:671
 msgid "Refresh Attributes and Statistics"
-msgstr ""
+msgstr "Ενημέρωση Χαρακτηριστικών και Στατιστικών"
 
 #: geonode/layers/templates/layers/layer_detail.html:674
-#, fuzzy
-#| msgid "Create a map using this layer"
 msgid "Clear the Server Cache of this layer"
-msgstr "Δημιουργήστε ένα χάρτη με αυτή την επιφάνεια"
+msgstr "Καθαρισμός Μνήμης Εξυπηρετητή για αυτό το επίπεδο"
 
 #: geonode/layers/templates/layers/layer_detail.html:675
 msgid "Click the button below to wipe the tile-cache of this layer."
 msgstr ""
-"Κάντε κλικ στο κουμπί για να διαγράψετε την αποθήκη τετραγωνιδίων (tile "
-"cache) αυτού του επιπέδου."
+"Κάντε κλικ στο κουμπί για διαγραφή της αποθήκης τετραγωνιδίων (tile cache) "
+"αυτού του επιπέδου."
 
 #: geonode/layers/templates/layers/layer_detail.html:676
 msgid "Empty Tiled-Layer Cache"
-msgstr ""
+msgstr "Άδεια Αποθήκη Τετραγωνιδίων Επιπέδου"
 
 #: geonode/layers/templates/layers/layer_detail.html:685
 #: geonode/layers/templates/layers/layer_metadata_upload.html:101
@@ -3879,7 +3877,7 @@ msgstr "Πηγή"
 #: geonode/layers/templates/layers/layer_detail.html:709
 #: geonode/templates/base.html:536 geonode/templates/metadata_base.html:144
 msgid "Processing..."
-msgstr ""
+msgstr "Επεξεργασία..."
 
 #: geonode/layers/templates/layers/layer_detail.html:714
 msgid "Updating Permissions..."
@@ -3887,7 +3885,7 @@ msgstr "Ενημέρωση Δικαιωμάτων..."
 
 #: geonode/layers/templates/layers/layer_granule_remove.html:9
 msgid "Remove Mosaic Granules"
-msgstr ""
+msgstr "Διαγραφή Τεμαχίων Μωσαϊκού"
 
 #: geonode/layers/templates/layers/layer_granule_remove.html:14
 #, python-format
@@ -3917,7 +3915,7 @@ msgstr "εξερεύνηση επιπέδων"
 #: geonode/layers/templates/upload/layer_upload_base.html:162
 #: geonode/templates/500.html:263
 msgid "Upload Layers"
-msgstr "Μεταφόρτωση (ανέβασμα) Επιφανειών"
+msgstr "Μεταφόρτωση Επιπέδων"
 
 #: geonode/layers/templates/layers/layer_metadata.html:19
 #, python-format
@@ -3962,10 +3960,8 @@ msgstr "Σειρά Εμφάνισης"
 #: geonode/layers/templates/layers/layer_metadata_upload.html:26
 #: geonode/layers/templates/layers/layer_style_upload.html:11
 #: geonode/layers/templates/upload/layer_upload_metadata_base.html:11
-#, fuzzy
-#| msgid "Upload Layer"
 msgid "Upload Layer Metadata"
-msgstr "Ανεβάστε Επιφάνεια"
+msgstr "Μεταφόρτωση Μεταδεδομένων Επιπέδου"
 
 #: geonode/layers/templates/layers/layer_metadata_upload.html:13
 #: geonode/layers/templates/layers/layer_replace.html:13
@@ -3983,14 +3979,14 @@ msgstr ""
 #: geonode/layers/templates/layers/layer_style_upload.html:33
 #: geonode/layers/templates/upload/layer_upload.html:40
 msgid "Incomplete Uploads"
-msgstr "Ελλιπής Προσθήκες"
+msgstr "Ελλιπής Μεταφόρτωση"
 
 #: geonode/layers/templates/layers/layer_metadata_upload.html:34
 #: geonode/layers/templates/layers/layer_replace.html:32
 #: geonode/layers/templates/layers/layer_style_upload.html:34
 #: geonode/layers/templates/upload/layer_upload.html:41
 msgid "You have the following incomplete uploads"
-msgstr "Έχετε τις παρακάτω ελλιπείς προσθήκες"
+msgstr "Έχετε τις παρακάτω ελλιπείς μεταφορτώσεις"
 
 #: geonode/layers/templates/layers/layer_metadata_upload.html:37
 #: geonode/layers/templates/layers/layer_replace.html:35
@@ -4037,7 +4033,7 @@ msgstr "Διαγραφή, και μην με ρωτήσετε ξανά."
 
 #: geonode/layers/templates/layers/layer_remove.html:9
 msgid "Remove Layers"
-msgstr ""
+msgstr "Αφαίρεση Επιπέδων"
 
 #: geonode/layers/templates/layers/layer_remove.html:14
 #, python-format
@@ -4052,14 +4048,12 @@ msgstr ""
 #: geonode/layers/templates/layers/layer_replace.html:25
 #: geonode/layers/templates/layers/layer_replace.html:99
 msgid "Replace Layer"
-msgstr "Αντικατάσταση Επιφάνειας"
+msgstr "Αντικατάσταση Επιπέδου"
 
 #: geonode/layers/templates/layers/layer_replace.html:80
 #: geonode/layers/templates/upload/layer_upload.html:89
-#, fuzzy
-#| msgid "Edit Service Metadata"
 msgid "Preserve Metadata XML"
-msgstr "Επεξεργασία Service Metadata"
+msgstr "Διατήρηση Μεταδεδομένων XML"
 
 #: geonode/layers/templates/layers/layer_replace.html:85
 #: geonode/layers/templates/upload/layer_upload.html:94
@@ -4068,7 +4062,7 @@ msgstr "Επιλέξτε το σύνολο χαρακτήρων ή αφήστε 
 
 #: geonode/layers/templates/layers/layer_style_manage.html:14
 msgid "Manage Styles"
-msgstr "Διαχειριστείτε Στυλ"
+msgstr "Διαχείριση Στυλ"
 
 #: geonode/layers/templates/layers/layer_style_manage.html:16
 #, python-format
@@ -4084,7 +4078,7 @@ msgstr ""
 
 #: geonode/layers/templates/layers/layer_style_manage.html:23
 msgid "Layer Default Style"
-msgstr "Layer Default Style"
+msgstr "Προεπιλεγμένο Στυλ Επιπέδου"
 
 #: geonode/layers/templates/layers/layer_style_manage.html:41
 msgid "Available styles"
@@ -4100,13 +4094,11 @@ msgstr ""
 
 #: geonode/layers/templates/layers/layer_style_manage.html:67
 msgid "Update Available Styles"
-msgstr "Ενημέρωση Διαθέσιμο Στυλ"
+msgstr "Ενημέρωση Διαθέσιμων Στυλ"
 
 #: geonode/layers/templates/layers/layer_style_upload.html:26
-#, fuzzy
-#| msgid "Upload Layer Step 2"
 msgid "Upload Layer Style"
-msgstr "Ανεβάστε Layer Βήμα 2"
+msgstr "Μεταφόρτωση Στυλ Επιπέδου"
 
 #: geonode/layers/templates/layers/layer_style_upload.html:26
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -4114,7 +4106,7 @@ msgstr ""
 
 #: geonode/layers/templates/layouts/panels.html:202
 msgid "Done!"
-msgstr ""
+msgstr "Ολοκληρώθηκε!"
 
 #: geonode/layers/templates/layouts/panels.html:210
 #: geonode/templates/user_messages/_message_snippet.html:12
@@ -4122,8 +4114,6 @@ msgid "Preview"
 msgstr "Προεπισκόπηση"
 
 #: geonode/layers/templates/layouts/panels.html:242
-#, fuzzy
-#| msgid "Attributes"
 msgid "Dataset Attributes"
 msgstr "Χαρακτηριστικά"
 
@@ -4132,37 +4122,31 @@ msgid "Visible"
 msgstr "Ορατό"
 
 #: geonode/layers/templates/layouts/panels.html:525
-#, fuzzy
-#| msgid "Search"
 msgid "Searchable"
-msgstr "Αναζήτηση"
+msgstr "Αναζήτησιμο"
 
 #: geonode/layers/templates/layouts/panels.html:596
 #: geonode/maps/templates/layouts/map_panels.html:343
-#, fuzzy
-#| msgid "Notice settings"
 msgid "Other Settings"
-msgstr "Notice settings"
+msgstr "Άλλες Ρυθμίσεις"
 
 #: geonode/layers/templates/upload/layer_upload.html:5
 #: geonode/templates/500.html:158 geonode/templates/base.html:164
 #: geonode/templates/base.html:323
 msgid "Upload Layer"
-msgstr "Ανεβάστε Επιφάνεια"
+msgstr "Μεταφόρτωση Επιπέδου"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:8
-#, fuzzy
-#| msgid "Upload Layer Step 2"
 msgid "Upload Layer Step: Set SRS"
-msgstr "Ανεβάστε Layer Βήμα 2"
+msgstr "Βήμα Μεταφόρτωσης Επιπέδου: Ορισμός SRS"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:16
 msgid "Provide CRS for "
-msgstr "Παροχή ΣΣΕ για"
+msgstr "Παροχή SRS για"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:19
 msgid "Coordinate Reference System"
-msgstr "Σύστημα αναφοράς συντεταγμένων"
+msgstr "Σύστημα Αναφοράς Συντεταγμένων"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:23
 msgid ""
@@ -4190,20 +4174,20 @@ msgstr ""
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:32
 msgid "Native CRS could not be found!"
-msgstr ""
+msgstr "Αρχικό CRS δεν βρέθηκε!"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:35
 msgid "Provide EPSG code for Source SRS"
-msgstr ""
+msgstr "Ορίστε κωδικό EPSG για το SRS πηγής"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:36
 #: geonode/layers/templates/upload/layer_upload_crs.html:203
 msgid "EPSG Code (Source SRS)"
-msgstr ""
+msgstr "Κωδικός EPSG (SRS πηγής)"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:38
 msgid "Select a Source SRS"
-msgstr ""
+msgstr "Επιλογή SRS Πηγής"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:44
 msgid ""
@@ -4233,40 +4217,34 @@ msgstr "Επόμενο"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:62
 #: geonode/layers/templates/upload/layer_upload_time.html:127
-#, fuzzy
-#| msgid "Time Options"
 msgid "Advanced Options"
-msgstr "Επιλογές Ώρα"
+msgstr "Προηγμένες Επιλογές"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:67
 msgid "Target SRS"
-msgstr ""
+msgstr "SRS Προορισμού"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:72
 #: geonode/layers/templates/upload/layer_upload_crs.html:207
 msgid "EPSG Code (Target SRS)"
-msgstr ""
+msgstr "Κωδικός EPSG (SRS προορισμού)"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:74
-#, fuzzy
-#| msgid "Select an attribute"
 msgid "Select a Target SRS"
-msgstr "Επιλέξτε ένα χαρακτηριστικό"
+msgstr "Επιλέξτε ένα SRS προορισμού"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:78
 msgid "leave it empty to use only Source SRS"
-msgstr ""
+msgstr "αφήστε κενό για να χρησιμοποιηθεί μόνο το SRS πηγής"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:84
 #: geonode/layers/templates/upload/layer_upload_time.html:225
 msgid "Additional Help"
-msgstr ""
+msgstr "Επιπλέον Βοήθεια"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:89
-#, fuzzy
-#| msgid "Coordinate Reference System"
 msgid "Spatial Reference System"
-msgstr "Σύστημα αναφοράς συντεταγμένων"
+msgstr "Χωρικό Σύστημα Αναφοράς"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:90
 msgid ""
@@ -4290,7 +4268,7 @@ msgstr ""
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:98
 msgid "Identifiers"
-msgstr ""
+msgstr "Μοναδικοί Κωδικοί"
 
 #: geonode/layers/templates/upload/layer_upload_crs.html:100
 msgid ""
@@ -4398,14 +4376,12 @@ msgid ""
 msgstr ""
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:7
-#, fuzzy
-#| msgid "Upload Layer Step 2"
 msgid "Upload Layer Step: CSV Field Mapping"
-msgstr "Ανεβάστε Layer Βήμα 2"
+msgstr "Βήμα Μεταφόρτωσης Επιπέδου: Αντιστοίχηση Πεδίων Αρχείου CSV"
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:15
 msgid "Geospatial Data"
-msgstr "Γεωχωρικών Δεδομένων"
+msgstr "Γεωχωρικά Δεδομένα"
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:18
 msgid ""
@@ -4416,20 +4392,15 @@ msgstr ""
 "και μήκος συντεταγμένες των δεδομένων CSV."
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:20
-#, fuzzy
-#| msgid ""
-#| "With this data, GeoNode was able to guess which attributes contain the\n"
-#| "latitude and longitude coordinates, but please confirm that the correct\n"
-#| "attributes are selected below."
 msgid ""
 "With this data, GeoNode was able to guess which attributes contain the\n"
 "                latitude and longitude coordinates, but please confirm that "
 "the correct\n"
 "                attributes are selected below."
 msgstr ""
-"Με αυτά τα δεδομένα, GeoNode ήταν σε θέση να μαντέψει ποιες ιδιότητες "
+"Με αυτά τα δεδομένα, το GeoNode ήταν σε θέση να μαντέψει ποιες ιδιότητες "
 "περιέχει τις γεωγραφικές συντεταγμένες, αλλά σας παρακαλώ να επιβεβαιώσετε "
-"ότι τα σωστά χαρακτηριστικά επιλεγεί παρακάτω."
+"ότι τα σωστά χαρακτηριστικά έχουν επιλεγεί παρακάτω."
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:33
 #: geonode/layers/templates/upload/layer_upload_csv.html:46
@@ -4437,13 +4408,6 @@ msgid "Select an attribute"
 msgstr "Επιλέξτε ένα χαρακτηριστικό"
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:70
-#, fuzzy
-#| msgid ""
-#| "We did not detect columns that could be used for the latitude and "
-#| "longitude.\n"
-#| "Please verify that you have two columns in your csv file that can be used "
-#| "for\n"
-#| "the latitude and longitude."
 msgid ""
 "We did not detect columns that could be used for the latitude and "
 "longitude.\n"
@@ -4451,15 +4415,16 @@ msgid ""
 "used for\n"
 "        the latitude and longitude."
 msgstr ""
-"Δεν ανιχνεύει στήλες που θα μπορούσαν να χρησιμοποιηθούν για το γεωγραφικό "
-"πλάτος και μήκος. Παρακαλούμε βεβαιωθείτε ότι έχετε δύο στήλες στο αρχείο "
-"CSV σας που μπορεί να χρησιμοποιηθεί για το γεωγραφικό πλάτος και μήκος."
+"Δεν έχουν ανιχνευτεί στήλες που θα μπορούσαν να χρησιμοποιηθούν για το "
+"γεωγραφικό πλάτος και μήκος. Παρακαλούμε βεβαιωθείτε ότι έχετε δύο στήλες "
+"στο αρχείο CSV σας που μπορούν να χρησιμοποιηθούν για το γεωγραφικό πλάτος "
+"και μήκος."
 
 #: geonode/layers/templates/upload/layer_upload_invalid.html:6
 #: geonode/layers/templates/upload/no_upload.html:6
 msgid "Your upload is either complete or you haven't resumed an earlier one."
 msgstr ""
-"Η μεταφόρτωση είναι είτε πλήρης είτε δεν έχετε επαναληφθεί ένα προηγούμενο."
+"Η μεταφόρτωση είναι είτε πλήρης είτε δεν έχετε επανεκκινήσει μια προηγούμενη."
 
 #: geonode/layers/templates/upload/layer_upload_invalid.html:7
 msgid "Return to"
@@ -4467,21 +4432,19 @@ msgstr "Επιστροφή στο"
 
 #: geonode/layers/templates/upload/layer_upload_invalid.html:7
 msgid "Upload Form"
-msgstr "Ανεβάστε Έντυπο"
+msgstr "Μεταφόρτωση Φόρμας"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:8
-#, fuzzy
-#| msgid "Upload Layer Step 2"
 msgid "Upload Layer Step: Time"
-msgstr "Ανεβάστε Layer Βήμα 2"
+msgstr "Βήμα Μεταφόρτωσης Επιπέδου: Χρόνος"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:16
 msgid "Inspect data for "
-msgstr ""
+msgstr "Επιθεώρηση δεδομένων για"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:25
 msgid "Configure as Time-Series"
-msgstr ""
+msgstr "Ρύθμιση σαν χρονοσειρά"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:28
 msgid ""
@@ -4535,7 +4498,7 @@ msgstr ""
 
 #: geonode/layers/templates/upload/layer_upload_time.html:122
 msgid "Start Importer"
-msgstr ""
+msgstr "Εκκίνηση Εισαγωγής"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:139
 #, fuzzy
@@ -4546,30 +4509,28 @@ msgstr "Όνομα Ιδιότητας"
 #: geonode/layers/templates/upload/layer_upload_time.html:142
 #: geonode/layers/templates/upload/layer_upload_time.html:174
 msgid "Best Guess"
-msgstr ""
+msgstr "Καλύτερη Προσέγγιση"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:143
 #: geonode/layers/templates/upload/layer_upload_time.html:175
 msgid "Custom"
-msgstr ""
+msgstr "Ιδιοποιημένο"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:152
-#, fuzzy
-#| msgid "Choose optional end time attribute"
 msgid "Optional End-Time attribute"
-msgstr "Επιλέξτε προαιρετικός τελικός χαρακτηριστικό χρόνο"
+msgstr "Προαιρετικό χαρακτηριστικό χρόνου λήξης"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:161
 msgid "Existing Time Attribute"
-msgstr "Ώρα υπάρχον χαρακτηριστικό"
+msgstr "Χαρακτηριστικό Τρέχουσας Ώρας"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:169
 msgid "Convert Text Attribute"
-msgstr "Μετατροπή Χαρακτηριστικό Κείμενο"
+msgstr "Μετατροπή Χαρακτηριστικού Κειμένου"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:184
 msgid "Convert Number (As Year)"
-msgstr "Μετατρέψτε Αριθμός (ως έτος)"
+msgstr "Μετατροπή Αριθμού (ως έτος)"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:193
 #, fuzzy
@@ -4591,7 +4552,7 @@ msgstr "Διαστήματα"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:205
 msgid "defined by the resolution"
-msgstr "ορίζεται από το ψήφισμα"
+msgstr "ορίζεται από την ανάλυση"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:209
 msgid "Continuous Intervals"
@@ -4602,16 +4563,16 @@ msgid ""
 "for data that is frequently updated, resolution describes the frequency of "
 "updates"
 msgstr ""
-"για δεδομένα που ενημερώνεται συχνά, το Ψήφισμα περιγράφει τη συχνότητα των "
+"για δεδομένα που ενημερώνονται συχνά, η Ανάλυση περιγράφει τη συχνότητα των "
 "ενημερώσεων"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:215
 msgid "Resolution of time attribute"
-msgstr "Ψήφισμα του χρόνου χαρακτηριστικό"
+msgstr "Ανάλυση του χαρακτηριστικού χρόνου"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:230
 msgid "Enabling Time"
-msgstr "Ώρα Ενεργοποίηση"
+msgstr "Ώρα Ενεργοποίησης"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:231
 #, fuzzy
@@ -4639,7 +4600,7 @@ msgstr ""
 
 #: geonode/layers/templates/upload/layer_upload_time.html:235
 msgid "Selecting an Attribute"
-msgstr "Επιλέγοντας ένα Χαρακτηριστικό"
+msgstr "Επιλογή Χαρακτηριστικού"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:236
 #, fuzzy
@@ -4712,14 +4673,12 @@ msgid "does NOT match any valid ISO-8601 Date-Time string!"
 msgstr ""
 
 #: geonode/layers/templates/upload/layer_upload_time.html:420
-#, fuzzy
-#| msgid "Your selections"
 msgid "Wrong Selection"
-msgstr "Your selections"
+msgstr "Λάθος Επιλογή"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:421
 msgid "Please, select one Time Attribute to test!"
-msgstr ""
+msgstr "Παρακαλώ επιλέξτε ένα χαρακτηριστικό χρόνου για δοκιμή!"
 
 #: geonode/layers/templates/upload/no_upload.html:7
 msgid ""
@@ -4773,22 +4732,21 @@ msgid "You are not permitted to view this layer"
 msgstr "Δεν σας επιτρέπεται να δείτε αυτή την επιφάνεια"
 
 #: geonode/layers/views.py:230
-#, fuzzy
-#| msgid "Files to be uploaded"
 msgid "Failed to upload the layer"
-msgstr "Αρχεία για να φορτωθούν"
+msgstr "Αποτυχία μεταφόρτωσης επιπέδων"
 
 #: geonode/layers/views.py:1273
 msgid "You are attempting to replace a vector layer with a raster."
-msgstr ""
+msgstr "Προσπαθείτε να αντικαταστήσετε διανυσματικό αρχείο με εικόνα"
 
 #: geonode/layers/views.py:1277
 msgid "You are attempting to replace a raster layer with a vector."
 msgstr ""
+"Προσπαθείτε να αντικαταστήσετε εικονιστικό επίπεδο με διανυσματικό αρχείο"
 
 #: geonode/layers/views.py:1371 geonode/layers/views.py:1414
 msgid "Unable to delete layer"
-msgstr ""
+msgstr "Αδυναμία διαγραφής επιπέδου"
 
 #: geonode/layers/views.py:1375 geonode/layers/views.py:1418
 msgid ""
@@ -4810,41 +4768,35 @@ msgstr "Ο Χάρτης δημιουργήθηκε"
 
 #: geonode/maps/__init__.py:29
 msgid "Map Updated"
-msgstr ""
+msgstr "Ο Χάρτης Ανανεώθηκε"
 
 #: geonode/maps/__init__.py:29
 msgid "A Map was updated"
-msgstr ""
+msgstr "Ο Χάρτης ανανεώθηκε"
 
 #: geonode/maps/__init__.py:30
-#, fuzzy
-#| msgid "Map Created"
 msgid "Map Approved"
-msgstr "Χάρτης Δημιουργήθηκε"
+msgstr "Χάρτης Εγκρίθηκε"
 
 #: geonode/maps/__init__.py:30
 msgid "A Map was approved by a Manager"
-msgstr ""
+msgstr "´Ενας Χάρτης εγκρίθηκε από ένα Διαχειριστή"
 
 #: geonode/maps/__init__.py:31
-#, fuzzy
-#| msgid "Is Published"
 msgid "Map Published"
-msgstr "Έχει Δημοσιευτεί"
+msgstr "Χάρτης Δημοσιεύτηκε"
 
 #: geonode/maps/__init__.py:31
-#, fuzzy
-#| msgid "A Map was created"
 msgid "A Map was published"
-msgstr "Ο Χάρτης δημιουργήθηκε"
+msgstr "Ένας Χάρτης δημμοσιεύτηκε"
 
 #: geonode/maps/__init__.py:32
 msgid "Map Deleted"
-msgstr ""
+msgstr "Χάρτης Διαγράφηκε"
 
 #: geonode/maps/__init__.py:32
 msgid "A Map was deleted"
-msgstr ""
+msgstr "Ένας Χάρτης διαγράφηκε"
 
 #: geonode/maps/__init__.py:33
 msgid "Comment on Map"
@@ -4939,32 +4891,24 @@ msgid "JSON Configuration"
 msgstr "JSON Διαμόρφωση"
 
 #: geonode/maps/templates/layouts/map_panels.html:40
-#, fuzzy
-#| msgid "Download Metadata"
 msgid "Optional Metadata<"
-msgstr "Μεταφόρτωση (κατέβασμα) Μεταδεδομένων"
+msgstr "Προαιρετικά Μεταδεδομένα"
 
 #: geonode/maps/templates/maps/map_detail.html:26
 msgid "maps"
-msgstr ""
+msgstr "χάρτες"
 
 #: geonode/maps/templates/maps/map_detail.html:235
-#, fuzzy
-#| msgid "Copy this map"
 msgid "Embed this map"
-msgstr "Αντιγράψτε αυτό το χάρτη"
+msgstr "Ενσωμάτωση αυτού του χάρτη"
 
 #: geonode/maps/templates/maps/map_detail.html:236
-#, fuzzy
-#| msgid "Duplicate this map and modify it for your own purposes"
 msgid "Embed this map to your own sites"
-msgstr "Αντιγράψτε τον χάρτη και τροποποιήστε τον για δικούς σας σκοπούς"
+msgstr "Ενσωμάτωση αυτού του χάρτη σε άλλη ιστοσελίδα"
 
 #: geonode/maps/templates/maps/map_detail.html:240
-#, fuzzy
-#| msgid "Edit Map"
 msgid "Embed Map"
-msgstr "Επεξεργασία Χάρτης"
+msgstr "Ενσωμάτωση Χάρτη"
 
 #: geonode/maps/templates/maps/map_detail.html:243
 msgid "Embed Iframe Link"
@@ -5057,11 +5001,11 @@ msgstr "Ξεκινήστε τη λήψη αυτού του χάρτη"
 
 #: geonode/maps/templates/maps/map_download.html:96
 msgid "Download Complete"
-msgstr "Download Complete"
+msgstr "Λήψη Ολοκληρώθηκε"
 
 #: geonode/maps/templates/maps/map_download.html:106
 msgid "Download Failed"
-msgstr "Λήψη Αποτυχία"
+msgstr "Αποτυχία Λήψης"
 
 #: geonode/maps/templates/maps/map_list.html:5
 #, fuzzy
@@ -5133,10 +5077,8 @@ msgid "An unknown error has occured."
 msgstr "Προέκυψε ένα άγνωστο σφάλμα."
 
 #: geonode/maps/views.py:1382
-#, fuzzy
-#| msgid "Thumbnail"
 msgid "Thumbnail saved"
-msgstr "Thumbnail"
+msgstr "Αποθήκευση Προεπισκόπησης"
 
 #: geonode/maps/views.py:1385
 #, fuzzy
@@ -5150,7 +5092,7 @@ msgstr "Χρήστης που σας ακολουθεί"
 
 #: geonode/people/__init__.py:26
 msgid "Another user has started following you"
-msgstr ""
+msgstr "Άλλος ένας χρήστης άρχισε αν σας ακολουθεί"
 
 #: geonode/people/__init__.py:27
 msgid "User requested access"
@@ -5167,6 +5109,8 @@ msgstr "Ο λογαριασμός ενεργοποιήθηκε"
 #: geonode/people/__init__.py:30
 msgid "This account is now active and can log in the site"
 msgstr ""
+"Αυτός ο λογαριασμός είναι πλέον ενεργός και μπορεί να εισέλθει στην "
+"ιστοσελίδα"
 
 #: geonode/people/admin.py:55
 msgid "Personal info"
@@ -5210,7 +5154,7 @@ msgid ""
 "party that accepts accountability and responsibility for the data and "
 "ensures         appropriate care and maintenance of the resource"
 msgstr ""
-"Το μέρος που αποδέχεται την υπευθυνότητα και την ευθύνη για τα δεδομένα και "
+"το μέρος που αποδέχεται την υπευθυνότητα και την ευθύνη για τα δεδομένα και "
 "εξασφαλίζει την ενδεδειγμένη φροντίδα και συντήρηση του πόρου"
 
 #: geonode/people/enumerations.py:44
@@ -5737,14 +5681,12 @@ msgid "Resource is queued"
 msgstr "Πόροι"
 
 #: geonode/services/templates/services/remote_service_unavailable.html:5
-#, fuzzy
-#| msgid "Remote Services"
 msgid "Remote service unavailable"
-msgstr "Υπηρεσίες απομακρυσμένης"
+msgstr "Μη διαθέσιμες απομακρυσμένες υπηρεσίες"
 
 #: geonode/services/templates/services/remote_service_unavailable.html:9
 msgid "Service unavailable"
-msgstr ""
+msgstr "Μη διαθέσιμη υπηρεσία"
 
 #: geonode/services/templates/services/remote_service_unavailable.html:11
 #, fuzzy
@@ -5819,13 +5761,13 @@ msgstr "Υπηρεσίες"
 
 #: geonode/services/templates/services/service_list.html:8
 msgid "Register a new Service"
-msgstr "Καταχωρήστε μια νέα υπηρεσία"
+msgstr "Εισαγωγή νέας Υπηρεσίας"
 
 #: geonode/services/templates/services/service_list.html:9
 #: geonode/templates/500.html:155 geonode/templates/base.html:161
 #: geonode/templates/base.html:320
 msgid "Remote Services"
-msgstr "Υπηρεσίες απομακρυσμένης"
+msgstr "Ηλεκτρονικές Υπηρεσίες"
 
 #: geonode/services/templates/services/service_list.html:28
 #, fuzzy
