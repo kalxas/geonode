@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-03 23:36+0300\n"
-"PO-Revision-Date: 2019-05-06 20:54+0300\n"
+"PO-Revision-Date: 2019-05-06 20:57+0300\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/"
 "el/)\n"
@@ -1207,7 +1207,7 @@ msgstr "Αναζήτηση για Δεδομένα."
 #: geonode/templates/metadata_detail.html:106
 #: geonode/templates/metadata_detail.html:109
 msgid "No"
-msgstr "Όχι"
+msgstr "Χωρίς"
 
 #: geonode/contrib/geosites/templates/master_index.html:61
 #: geonode/contrib/monitoring/models.py:169
@@ -1262,7 +1262,7 @@ msgstr ""
 #: geonode/contrib/geosites/templates/master_index.html:74
 #: geonode/templates/index.html:272
 msgid "Create maps"
-msgstr "Δημιουργήστε χάρτες"
+msgstr "Δημιουργία χαρτών"
 
 #: geonode/contrib/geosites/templates/master_index.html:76
 #: geonode/templates/index.html:274
@@ -7299,10 +7299,8 @@ msgid "Featured Datasets"
 msgstr "Επιλεγμένα Δεδομένα"
 
 #: geonode/templates/index.html:309
-#, fuzzy
-#| msgid "Explore layers"
 msgid "Explore all datasets"
-msgstr "Αναζήτηση επιπέδων"
+msgstr "Εξερεύνηση όλων των δεδομένων"
 
 #: geonode/templates/invitations/email/email_invite_message.html:2
 #: geonode/templates/invitations/email/email_invite_message.txt:3
