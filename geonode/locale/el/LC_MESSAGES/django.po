@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-03 23:36+0300\n"
-"PO-Revision-Date: 2019-05-06 21:12+0300\n"
+"PO-Revision-Date: 2019-05-06 21:15+0300\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/"
 "el/)\n"
@@ -1378,7 +1378,7 @@ msgstr "Έγγραφα"
 #: geonode/templates/500.html:68 geonode/templates/500.html:181
 #: geonode/templates/base.html:189 geonode/templates/base.html:346
 msgid "People"
-msgstr "Άτομα"
+msgstr "Χρήστες"
 
 #: geonode/contrib/monitoring/frontend/index.html:71
 #: geonode/contrib/monitoring/frontend/index.html:135
