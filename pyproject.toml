@@ -130,7 +130,7 @@ dependencies = [
     # production
     "uWSGI==2.0.30",
     "docker==7.0.0",
-    "invoke==2.2.0",
+    "invoke==3.0.3",
     # tests
     "coverage==7.15.4",
     "requests-toolbelt==1.0.0",
